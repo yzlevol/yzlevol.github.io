@@ -1,26 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/css/</link><description>Recent content in Css on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/zh-cn/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>进阶自定义</title><link>https://yzlevol.github.io/zh-cn/docs/advanced-customisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/advanced-customisation/</guid><description>&lt;p>您可以通过多种方式对 Blowfish 进行高级自定义。请阅读下文，了解更多可自定义的内容以及实现想要效果的最佳方法。&lt;/p>
-&lt;p>如果您需要更多指导，请在 &lt;a href="https://github.com/nunocoracao/blowfish/discussions" target="_blank">GitHub Discussions&lt;/a> 上提问。&lt;/p>
-&lt;h2 class="relative group">Hugo 项目结构
-&lt;div id="hugo-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#hugo-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>在开始讨论之前，首先简要介绍一下 &lt;a href="https://gohugo.io/getting-started/directory-struct/" target="_blank">Hugo 项目结构&lt;/a> 以及管理内容和主题自定义的最佳方式。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Blowfish</title>
+    <link>http://localhost:1313/zh-cn/tags/css/</link>
+    <description>Recent content in Css on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>进阶自定义</title>
+      <link>http://localhost:1313/zh-cn/docs/advanced-customisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/docs/advanced-customisation/</guid>
+      <description>&lt;p&gt;您可以通过多种方式对 Blowfish 进行高级自定义。请阅读下文，了解更多可自定义的内容以及实现想要效果的最佳方法。&lt;/p&gt;
+&lt;p&gt;如果您需要更多指导，请在 &lt;a href=&#34;https://github.com/nunocoracao/blowfish/discussions&#34; target=&#34;_blank&#34;&gt;GitHub Discussions&lt;/a&gt; 上提问。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Hugo 项目结构 
+    &lt;div id=&#34;hugo-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#hugo-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;在开始讨论之前，首先简要介绍一下 &lt;a href=&#34;https://gohugo.io/getting-started/directory-struct/&#34; target=&#34;_blank&#34;&gt;Hugo 项目结构&lt;/a&gt; 以及管理内容和主题自定义的最佳方式。&lt;/p&gt;
+
+  
+
+
+
 &lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->&lt;strong>总结：&lt;/strong> 切勿直接编辑主题文件。一定要仅在 Hugo 项目的子目录中进行自定义，而不是在主题目录中进行自定义。&lt;/span>
-&lt;/div>
-&lt;p>Blowfish 旨在利用所有标准的 Hugo 参数操作。它旨在允许在不更改任何核心主题文件的情况下自定义和覆盖主题的所有方面。这也给您提供了一种无缝升级的体验，同时让您完全控制网站的外观和感觉。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/advanced-customisation/featured.svg"/></item><item><title>Markdown</title><link>https://yzlevol.github.io/zh-cn/samples/markdown/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/samples/markdown/</guid><description>&lt;p>本文提供了可在 Blowfish 中使用的基本 Markdown 格式示例，还展示了如何加入一些基本 HTML 元素。&lt;/p></description></item></channel></rss>
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;&lt;strong&gt;总结：&lt;/strong&gt; 切勿直接编辑主题文件。一定要仅在 Hugo 项目的子目录中进行自定义，而不是在主题目录中进行自定义。&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Blowfish 旨在利用所有标准的 Hugo 参数操作。它旨在允许在不更改任何核心主题文件的情况下自定义和覆盖主题的所有方面。这也给您提供了一种无缝升级的体验，同时让您完全控制网站的外观和感觉。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/advanced-customisation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/zh-cn/samples/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/samples/markdown/</guid>
+      <description>&lt;p&gt;本文提供了可在 Blowfish 中使用的基本 Markdown 格式示例，还展示了如何加入一些基本 HTML 元素。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

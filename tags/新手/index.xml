@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>新手 on yzlevol-blog</title><link>https://yzlevol.github.io/tags/%E6%96%B0%E6%89%8B/</link><description>Recent content in 新手 on yzlevol-blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><atom:link href="https://yzlevol.github.io/tags/%E6%96%B0%E6%89%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎来到 Blowfish</title><link>https://yzlevol.github.io/docs/welcome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/docs/welcome/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+Blowfish 包含了大量的特性功能。
+&lt;/div>
+&lt;p>Blowfish 的目标是开发一个简单且轻量级的主题。 该主题是 &lt;a target="_blank" href="https://github.com/nunocoracao/congo">Congo&lt;/a> 的一个分支，并进行了大量扩展。&lt;/p>
+&lt;h2 class="relative group">Tailwind CSS 3.0
+&lt;div id="tailwind-css-30" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#tailwind-css-30" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Tailwind CSS 是 Blowfish 的核心，当前版本包含了最新的&lt;a href="https://tailwindcss.com/blog/tailwindcss-v3" target="_blank">Tailwind CSS version 3&lt;/a>。
+Tailwind CSS 带来了性能优化，并提供了一些出色的新的 CSS 特性。&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/TmWIrBPE6Bc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2 class="relative group">多语言支持
+&lt;div id="%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>这是一个高频需求，Blowfish 现在支持多语言！
+如果你使用多语言发布你的内容，网站将会构建包含所有可用翻译的版本。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/welcome/featured.svg"/></item></channel></rss>

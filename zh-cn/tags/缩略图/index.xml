@@ -1,39 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>缩略图 on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/%E7%BC%A9%E7%95%A5%E5%9B%BE/</link><description>Recent content in 缩略图 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/zh-cn/tags/%E7%BC%A9%E7%95%A5%E5%9B%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>缩略图</title><link>https://yzlevol.github.io/zh-cn/docs/thumbnails/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/thumbnails/</guid><description>&lt;h2 class="relative group">缩略图
-&lt;div id="%E7%BC%A9%E7%95%A5%E5%9B%BE" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E7%BC%A9%E7%95%A5%E5%9B%BE" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Blowfish 对视觉支持进行了增强，可以让你轻松地为文章添加缩略图。你只需要将一个以 &lt;code>feature*&lt;/code> 开头的图像文件（支持几乎所有格式，但更推荐 &lt;code>.png&lt;/code> 或 &lt;code>.jpg&lt;/code>）放置在文章所在的目录中，如下面所示：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">content
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── awesome_article
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── index.md
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └── featured.png
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这将告诉 Blowfish 这篇文章有一个特征图片，这个图片可以在网站作为缩略图使用，也可以用于社交平台上的 &lt;a target="_blank" href="https://oembed.com/">oEmbed&lt;/a> 卡片。&lt;/p>
-&lt;h2 class="relative group">文件结构
-&lt;div id="%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>如果你仅仅使用一个 &lt;code>.md&lt;/code> 文件作为文章，文件结构如下所示：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">content
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── awesome_article.md
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果想添加缩略图，你需要将单个 Markdown 文件放在文件夹中。创建一个与文章同名的目录，在其中创建 &lt;code>index.md&lt;/code> 文件。文件结构如下所示：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">content
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── awesome_article
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └── index.md
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后你只需要像之前那样添加一个特征图片。如果你想看示例，你可以参 &lt;a href="https://yzlevol.github.io/zh-cn/samples/thumbnail_sample/">这个示例&lt;/a>。&lt;/p>
-&lt;h2 class="relative group">Hero 图片
-&lt;div id="hero-%E5%9B%BE%E7%89%87" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#hero-%E5%9B%BE%E7%89%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>缩略图将默认用作每篇文章的 hero 图片。开启此功能，可以使用全局的 &lt;code>article.showHero&lt;/code> 参数来控制整个站点所有文章，或者扉页参数 &lt;code>showHero&lt;/code> 来控制其中一个文章。如果你想覆盖 hero 图片的样式，你可以在 &lt;code>./layouts/partials/&lt;/code> 文件夹中创建一个名为 &lt;code>hero.html&lt;/code> 的文件，它会覆盖主题中的默认部分。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/thumbnails/featured.svg"/></item><item><title>缩略图</title><link>https://yzlevol.github.io/zh-cn/samples/thumbnail_sample/</link><pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/samples/thumbnail_sample/</guid><description>一个展示如何在你的文章中开始使用缩略图的快速示例。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>缩略图 on Blowfish</title>
+    <link>http://localhost:1313/zh-cn/tags/%E7%BC%A9%E7%95%A5%E5%9B%BE/</link>
+    <description>Recent content in 缩略图 on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/%E7%BC%A9%E7%95%A5%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>缩略图</title>
+      <link>http://localhost:1313/zh-cn/docs/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/docs/thumbnails/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;缩略图 
+    &lt;div id=&#34;%E7%BC%A9%E7%95%A5%E5%9B%BE&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E7%BC%A9%E7%95%A5%E5%9B%BE&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Blowfish 对视觉支持进行了增强，可以让你轻松地为文章添加缩略图。你只需要将一个以 &lt;code&gt;feature*&lt;/code&gt; 开头的图像文件（支持几乎所有格式，但更推荐 &lt;code&gt;.png&lt;/code&gt; 或 &lt;code&gt;.jpg&lt;/code&gt;）放置在文章所在的目录中，如下面所示：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;content
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── awesome_article
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └── featured.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这将告诉 Blowfish 这篇文章有一个特征图片，这个图片可以在网站作为缩略图使用，也可以用于社交平台上的 &lt;a target=&#34;_blank&#34; href=&#34;https://oembed.com/&#34;&gt;oEmbed&lt;/a&gt; 卡片。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;文件结构 
+    &lt;div id=&#34;%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;如果你仅仅使用一个 &lt;code&gt;.md&lt;/code&gt; 文件作为文章，文件结构如下所示：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;content
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── awesome_article.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果想添加缩略图，你需要将单个 Markdown 文件放在文件夹中。创建一个与文章同名的目录，在其中创建 &lt;code&gt;index.md&lt;/code&gt; 文件。文件结构如下所示：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;content
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── awesome_article
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └── index.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后你只需要像之前那样添加一个特征图片。如果你想看示例，你可以参 &lt;a href=&#34;http://localhost:1313/zh-cn/samples/thumbnail_sample/&#34;&gt;这个示例&lt;/a&gt;。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Hero 图片 
+    &lt;div id=&#34;hero-%E5%9B%BE%E7%89%87&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#hero-%E5%9B%BE%E7%89%87&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;缩略图将默认用作每篇文章的 hero 图片。开启此功能，可以使用全局的 &lt;code&gt;article.showHero&lt;/code&gt; 参数来控制整个站点所有文章，或者扉页参数 &lt;code&gt;showHero&lt;/code&gt; 来控制其中一个文章。如果你想覆盖 hero 图片的样式，你可以在 &lt;code&gt;./layouts/partials/&lt;/code&gt; 文件夹中创建一个名为 &lt;code&gt;hero.html&lt;/code&gt; 的文件，它会覆盖主题中的默认部分。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/thumbnails/featured.svg" />
+    </item>
+    
+    <item>
+      <title>缩略图</title>
+      <link>http://localhost:1313/zh-cn/samples/thumbnail_sample/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/samples/thumbnail_sample/</guid>
+      <description>一个展示如何在你的文章中开始使用缩略图的快速示例。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

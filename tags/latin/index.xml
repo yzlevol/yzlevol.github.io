@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latin on Blowfish</title><link>https://yzlevol.github.io/tags/latin/</link><description>Recent content in Latin on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor><webMaster>nuno@n9o.xyz (Blowfish)</webMaster><copyright>© 2024 Blowfish</copyright><lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/latin/index.xml" rel="self" type="application/rss+xml"/><item><title>Placeholder Text</title><link>https://yzlevol.github.io/samples/placeholder-text/</link><pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/placeholder-text/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latin on Blowfish</title>
+    <link>http://localhost:1313/tags/latin/</link>
+    <description>Recent content in Latin on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2024 Blowfish</copyright>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/latin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://localhost:1313/samples/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/samples/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

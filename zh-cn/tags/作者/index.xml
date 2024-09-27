@@ -1,38 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>作者 on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/%E4%BD%9C%E8%80%85/</link><description>Recent content in 作者 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/zh-cn/tags/%E4%BD%9C%E8%80%85/index.xml" rel="self" type="application/rss+xml"/><item><title>多创作者模式</title><link>https://yzlevol.github.io/zh-cn/docs/multi-author/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/multi-author/</guid><description>&lt;p>一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认使用多创作者。对于这种情况，Blowfish 允许用户使用多创作者功能拓展创作者列表。&lt;/p>
-&lt;p>为了保持向后兼容，这个功能仅允许定义额外的创作者，并不会以任何方式修改之前通过配置文件添加的创作者。&lt;/p>
-&lt;h2 class="relative group">新建创作者
-&lt;div id="%E6%96%B0%E5%BB%BA%E5%88%9B%E4%BD%9C%E8%80%85" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E6%96%B0%E5%BB%BA%E5%88%9B%E4%BD%9C%E8%80%85" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>新建创作者的第一步是设置一个 &lt;code>./data/authors&lt;/code> 文件夹。然后，你可以在里面简单的添加新创作者的 &lt;code>json&lt;/code> 文件。文件的名称是你在文章引用该作者时需要指定的 &lt;code>key&lt;/code>。&lt;/p>
-&lt;p>例如，在 &lt;code>./data/authors&lt;/code> 文件夹中新建一个 &lt;code>nunocoracao.json&lt;/code> 文件。文件的内容示例如下。&lt;code>name&lt;/code>、&lt;code>image&lt;/code>、&lt;code>bio&lt;/code> 和 &lt;code>social&lt;/code> 是目前创作者文件支持的4个参数，这与你在 &lt;code>languages.[language-code].toml&lt;/code> 配置文件中的默认创作者配置类似。&lt;/p>
-&lt;p>&lt;em>注意：社交参数中的 &lt;code>key&lt;/code> 将会默认获取主题的图标 icon，当然你也可以在 &lt;code>assests/icons&lt;/code> 文件夹中设置任何图标。&lt;/em>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Nuno Coração&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;image&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;img/nuno_avatar.jpg&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;bio&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Theme Creator&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;social&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;linkedin&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://linkedin.com/in/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;twitter&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://twitter.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;instagram&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://instagram.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;medium&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://medium.com/@nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;github&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://github.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;goodreads&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;http://goodreads.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;keybase&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://keybase.io/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;reddit&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://reddit.com/user/nunoheart&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2 class="relative group">在文章中引用创作者
-&lt;div id="%E5%9C%A8%E6%96%87%E7%AB%A0%E4%B8%AD%E5%BC%95%E7%94%A8%E5%88%9B%E4%BD%9C%E8%80%85" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E5%9C%A8%E6%96%87%E7%AB%A0%E4%B8%AD%E5%BC%95%E7%94%A8%E5%88%9B%E4%BD%9C%E8%80%85" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>你已经新建好了创作者，下一步让我们在文章中引用它。在下面的实例中，我们使用前面新建的创作者 &lt;code>key&lt;/code> 来引用它。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/multi-author/featured.svg"/></item><item><title>多作者</title><link>https://yzlevol.github.io/zh-cn/samples/multiple-authors/</link><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/samples/multiple-authors/</guid><description>如何使用多个作者的简单示例。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作者 on Blowfish</title>
+    <link>http://localhost:1313/zh-cn/tags/%E4%BD%9C%E8%80%85/</link>
+    <description>Recent content in 作者 on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/%E4%BD%9C%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多创作者模式</title>
+      <link>http://localhost:1313/zh-cn/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/docs/multi-author/</guid>
+      <description>&lt;p&gt;一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认使用多创作者。对于这种情况，Blowfish 允许用户使用多创作者功能拓展创作者列表。&lt;/p&gt;
+&lt;p&gt;为了保持向后兼容，这个功能仅允许定义额外的创作者，并不会以任何方式修改之前通过配置文件添加的创作者。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;新建创作者 
+    &lt;div id=&#34;%E6%96%B0%E5%BB%BA%E5%88%9B%E4%BD%9C%E8%80%85&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E6%96%B0%E5%BB%BA%E5%88%9B%E4%BD%9C%E8%80%85&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;新建创作者的第一步是设置一个 &lt;code&gt;./data/authors&lt;/code&gt; 文件夹。然后，你可以在里面简单的添加新创作者的 &lt;code&gt;json&lt;/code&gt; 文件。文件的名称是你在文章引用该作者时需要指定的 &lt;code&gt;key&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;例如，在 &lt;code&gt;./data/authors&lt;/code&gt; 文件夹中新建一个 &lt;code&gt;nunocoracao.json&lt;/code&gt; 文件。文件的内容示例如下。&lt;code&gt;name&lt;/code&gt;、&lt;code&gt;image&lt;/code&gt;、&lt;code&gt;bio&lt;/code&gt; 和 &lt;code&gt;social&lt;/code&gt; 是目前创作者文件支持的4个参数，这与你在 &lt;code&gt;languages.[language-code].toml&lt;/code&gt; 配置文件中的默认创作者配置类似。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;注意：社交参数中的 &lt;code&gt;key&lt;/code&gt; 将会默认获取主题的图标 icon，当然你也可以在 &lt;code&gt;assests/icons&lt;/code&gt; 文件夹中设置任何图标。&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Nuno Coração&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;image&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;img/nuno_avatar.jpg&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;bio&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Theme Creator&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;social&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;linkedin&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://linkedin.com/in/nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;twitter&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://twitter.com/nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;instagram&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://instagram.com/nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;medium&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://medium.com/@nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;github&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://github.com/nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;goodreads&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;http://goodreads.com/nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;keybase&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://keybase.io/nunocoracao&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;reddit&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://reddit.com/user/nunoheart&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;在文章中引用创作者 
+    &lt;div id=&#34;%E5%9C%A8%E6%96%87%E7%AB%A0%E4%B8%AD%E5%BC%95%E7%94%A8%E5%88%9B%E4%BD%9C%E8%80%85&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%9C%A8%E6%96%87%E7%AB%A0%E4%B8%AD%E5%BC%95%E7%94%A8%E5%88%9B%E4%BD%9C%E8%80%85&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;你已经新建好了创作者，下一步让我们在文章中引用它。在下面的实例中，我们使用前面新建的创作者 &lt;code&gt;key&lt;/code&gt; 来引用它。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/multi-author/featured.svg" />
+    </item>
+    
+    <item>
+      <title>多作者</title>
+      <link>http://localhost:1313/zh-cn/samples/multiple-authors/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/samples/multiple-authors/</guid>
+      <description>如何使用多个作者的简单示例。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

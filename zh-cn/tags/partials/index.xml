@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Partials on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/partials/</link><description>Recent content in Partials on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/zh-cn/tags/partials/index.xml" rel="self" type="application/rss+xml"/><item><title>局部模板(Partials)</title><link>https://yzlevol.github.io/zh-cn/docs/partials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/partials/</guid><description>&lt;h2 class="relative group">站点分析
-&lt;div id="%E7%AB%99%E7%82%B9%E5%88%86%E6%9E%90" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E7%AB%99%E7%82%B9%E5%88%86%E6%9E%90" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Blowfish 支持了 Fathom、Google 和 Umami。Fathom 和 Umami 都是开源、简单、且注重隐私的站点分析服务，他们可以很好地替代 Google 分析。Fathom 和 Umami 都有公有云的付费版本，当然你也可以自己手动部署开源版。&lt;/p>
-&lt;h3 class="relative group">Fathom
-&lt;div id="fathom" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#fathom" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;p>要启用 Fathom Analytics 支持，只需在 &lt;code>config/_default/params.toml&lt;/code> 文件中提供您的 Fathom 站点代码。如果您还使用 Fathom 的自定义域功能，并希望从您的域中提供脚本，还可以额外提供 &lt;code>domain&lt;/code> 配置值。如果不提供 &lt;code>domain&lt;/code> 值，脚本将直接从 Fath只需要在 &lt;code>config/_default/params.toml&lt;/code> 文件提供你的 Fathom 站点代码，就可以快速支持 Fathom 站点分析。
-如果你想使用自定义域名来获取跟踪脚本， 那么需要提供 &lt;code>domain&lt;/code> 参数，否则会从 Fathom 云服务版的地址 (＜cdn.usefathom.com＞) 获取脚本。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/partials/featured.svg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partials on Blowfish</title>
+    <link>http://localhost:1313/zh-cn/tags/partials/</link>
+    <description>Recent content in Partials on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/zh-cn/tags/partials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>局部模板(Partials)</title>
+      <link>http://localhost:1313/zh-cn/docs/partials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/docs/partials/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;站点分析 
+    &lt;div id=&#34;%E7%AB%99%E7%82%B9%E5%88%86%E6%9E%90&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E7%AB%99%E7%82%B9%E5%88%86%E6%9E%90&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Blowfish 支持了 Fathom、Google 和 Umami。Fathom 和 Umami 都是开源、简单、且注重隐私的站点分析服务，他们可以很好地替代 Google 分析。Fathom 和 Umami 都有公有云的付费版本，当然你也可以自己手动部署开源版。&lt;/p&gt;
+
+
+&lt;h3 class=&#34;relative group&#34;&gt;Fathom 
+    &lt;div id=&#34;fathom&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#fathom&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;要启用 Fathom Analytics 支持，只需在 &lt;code&gt;config/_default/params.toml&lt;/code&gt; 文件中提供您的 Fathom 站点代码。如果您还使用 Fathom 的自定义域功能，并希望从您的域中提供脚本，还可以额外提供 &lt;code&gt;domain&lt;/code&gt; 配置值。如果不提供 &lt;code&gt;domain&lt;/code&gt; 值，脚本将直接从 Fath只需要在 &lt;code&gt;config/_default/params.toml&lt;/code&gt; 文件提供你的 Fathom 站点代码，就可以快速支持 Fathom 站点分析。
+如果你想使用自定义域名来获取跟踪脚本， 那么需要提供 &lt;code&gt;domain&lt;/code&gt; 参数，否则会从 Fathom 云服务版的地址 (＜cdn.usefathom.com＞) 获取脚本。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/partials/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

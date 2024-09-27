@@ -1,40 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcodes on Blowfish</title><link>https://yzlevol.github.io/tags/shortcodes/</link><description>Recent content in Shortcodes on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor><webMaster>nuno@n9o.xyz (Blowfish)</webMaster><copyright>© 2024 Blowfish</copyright><lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Shortcodes</title><link>https://yzlevol.github.io/docs/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/docs/shortcodes/</guid><description>&lt;p>In addition to all the &lt;a href="https://gohugo.io/content-management/shortcodes/" target="_blank">default Hugo shortcodes&lt;/a>, Blowfish adds a few extras for additional functionality.&lt;/p>
-&lt;h2 class="relative group">Alert
-&lt;div id="alert" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#alert" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>&lt;code>alert&lt;/code> outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.&lt;/p>
-&lt;!-- prettier-ignore-start -->
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Parameter&lt;/th>
-&lt;th style="text-align: left">Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>icon&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the icon to display on the left side.&lt;br>&lt;strong>Default:&lt;/strong> &lt;code>triangle-exclamation&lt;/code> (Check out the &lt;a href="#icon">icon shortcode&lt;/a> for more details on using icons.)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>iconColor&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the color for the icon in basic CSS style.&lt;br>Can be either hex values (&lt;code>#FFFFFF&lt;/code>) or color names (&lt;code>white&lt;/code>)&lt;br>By default chosen based on the current color theme .&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>cardColor&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the color for the card background in basic CSS style.&lt;br>Can be either hex values (&lt;code>#FFFFFF&lt;/code>) or color names (&lt;code>white&lt;/code>)&lt;br>By default chosen based on the current color theme .&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>textColor&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the color for the text in basic CSS style.&lt;br>Can be either hex values (&lt;code>#FFFFFF&lt;/code>) or color names (&lt;code>white&lt;/code>)&lt;br>By default chosen based on the current color theme .&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;!-- prettier-ignore-end -->
-&lt;p>The input is written in Markdown so you can format it however you please.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/shortcodes/featured.svg"/></item><item><title>Icons</title><link>https://yzlevol.github.io/samples/icons/</link><pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/icons/</guid><description>&lt;p>Blowfish has built-in support for a number of &lt;a href="https://fontawesome.com/icons" target="_blank">FontAwesome 6&lt;/a> icons. These can be included in your website through either the &lt;a href="https://yzlevol.github.io/docs/partials/#icon">icon partial&lt;/a> or &lt;a href="https://yzlevol.github.io/docs/shortcodes/#icon">icon shortcode&lt;/a>.&lt;/p>
-&lt;p>Additionally, custom icons are also fully supported. Simply provide your own SVG icon assets by placing them in the &lt;code>assets/icons/&lt;/code> directory in the root of your project. Any icons in the icons directory will then be available to use throughout the theme. In order achieve automatic color filling every SVG path needs fill=&amp;ldquo;currentColor&amp;rdquo; XML attribute.&lt;/p></description></item><item><title>Rich Content</title><link>https://yzlevol.github.io/samples/rich-content/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/rich-content/</guid><description>This is an &lt;em>example&lt;/em> of a &lt;strong>rich&lt;/strong> content summary.</description></item><item><title>Mathematical notation</title><link>https://yzlevol.github.io/samples/mathematical-notation/</link><pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/mathematical-notation/</guid><description>&lt;p>KaTeX can be used to render mathematical notation within articles.&lt;/p></description></item><item><title>Charts</title><link>https://yzlevol.github.io/samples/charts/</link><pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/charts/</guid><description>Blowfish includes Chart.js for powerful charts and data visualisations.</description></item><item><title>Diagrams and Flowcharts</title><link>https://yzlevol.github.io/samples/diagrams-flowcharts/</link><pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/diagrams-flowcharts/</guid><description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcodes on Blowfish</title>
+    <link>http://localhost:1313/tags/shortcodes/</link>
+    <description>Recent content in Shortcodes on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2024 Blowfish</copyright>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortcodes</title>
+      <link>http://localhost:1313/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/docs/shortcodes/</guid>
+      <description>&lt;p&gt;In addition to all the &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34; target=&#34;_blank&#34;&gt;default Hugo shortcodes&lt;/a&gt;, Blowfish adds a few extras for additional functionality.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Alert 
+    &lt;div id=&#34;alert&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#alert&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;alert&lt;/code&gt; outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.&lt;/p&gt;
+&lt;!-- prettier-ignore-start --&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Parameter&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;icon&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Optional.&lt;/strong&gt; the icon to display on the left side.&lt;br&gt;&lt;strong&gt;Default:&lt;/strong&gt; &lt;code&gt;triangle-exclamation&lt;/code&gt; (Check out the &lt;a href=&#34;#icon&#34;&gt;icon shortcode&lt;/a&gt; for more details on using icons.)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;iconColor&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Optional.&lt;/strong&gt; the color for the icon in basic CSS style.&lt;br&gt;Can be either hex values (&lt;code&gt;#FFFFFF&lt;/code&gt;) or color names (&lt;code&gt;white&lt;/code&gt;)&lt;br&gt;By default chosen based on the current color theme .&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;cardColor&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Optional.&lt;/strong&gt; the color for the card background in basic CSS style.&lt;br&gt;Can be either hex values (&lt;code&gt;#FFFFFF&lt;/code&gt;) or color names (&lt;code&gt;white&lt;/code&gt;)&lt;br&gt;By default chosen based on the current color theme .&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;textColor&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Optional.&lt;/strong&gt; the color for the text in basic CSS style.&lt;br&gt;Can be either hex values (&lt;code&gt;#FFFFFF&lt;/code&gt;) or color names (&lt;code&gt;white&lt;/code&gt;)&lt;br&gt;By default chosen based on the current color theme .&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- prettier-ignore-end --&gt;
+&lt;p&gt;The input is written in Markdown so you can format it however you please.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>http://localhost:1313/samples/icons/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/samples/icons/</guid>
+      <description>&lt;p&gt;Blowfish has built-in support for a number of &lt;a href=&#34;https://fontawesome.com/icons&#34; target=&#34;_blank&#34;&gt;FontAwesome 6&lt;/a&gt; icons. These can be included in your website through either the &lt;a href=&#34;http://localhost:1313/docs/partials/#icon&#34;&gt;icon partial&lt;/a&gt; or &lt;a href=&#34;http://localhost:1313/docs/shortcodes/#icon&#34;&gt;icon shortcode&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Additionally, custom icons are also fully supported. Simply provide your own SVG icon assets by placing them in the &lt;code&gt;assets/icons/&lt;/code&gt; directory in the root of your project. Any icons in the icons directory will then be available to use throughout the theme. In order achieve automatic color filling every SVG path needs fill=&amp;ldquo;currentColor&amp;rdquo; XML attribute.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>http://localhost:1313/samples/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/samples/rich-content/</guid>
+      <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mathematical notation</title>
+      <link>http://localhost:1313/samples/mathematical-notation/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/samples/mathematical-notation/</guid>
+      <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Charts</title>
+      <link>http://localhost:1313/samples/charts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/samples/charts/</guid>
+      <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
+      
+    </item>
+    
+    <item>
+      <title>Diagrams and Flowcharts</title>
+      <link>http://localhost:1313/samples/diagrams-flowcharts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/samples/diagrams-flowcharts/</guid>
+      <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
