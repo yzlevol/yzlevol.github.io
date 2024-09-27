@@ -7,4 +7,34 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>这是一篇模板文章，将解释如何为 Blowfish 的指南部分创建新文章。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>
+&lt;p>这是一篇模板文章，将解释如何为 Blowfish 的指南部分创建新文章。&lt;/p>
+&lt;h2 class="relative group">Clone Blowfish 仓库
+&lt;div id="clone-blowfish-%E4%BB%93%E5%BA%93" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#clone-blowfish-%E4%BB%93%E5%BA%93" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>使用以下命令 clone 此仓库：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/nunocoracao/blowfish.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 class="relative group">配置您的文档
+&lt;div id="%E9%85%8D%E7%BD%AE%E6%82%A8%E7%9A%84%E6%96%87%E6%A1%A3" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E9%85%8D%E7%BD%AE%E6%82%A8%E7%9A%84%E6%96%87%E6%A1%A3" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>复制并粘贴您要创建的 &lt;code>.md&lt;/code> 文档所在的整个文件夹。
+使用 &lt;code>YYYYMM-&amp;lt;英文标题&amp;gt;&lt;/code> 的格式（例如：&lt;code>200601-tutorial&lt;/code>）命名文档，不允许有空格。&lt;/p>
+&lt;h2 class="relative group">编写您的指南
+&lt;div id="%E7%BC%96%E5%86%99%E6%82%A8%E7%9A%84%E6%8C%87%E5%8D%97" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E7%BC%96%E5%86%99%E6%82%A8%E7%9A%84%E6%8C%87%E5%8D%97" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>编写您的指南 :)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>

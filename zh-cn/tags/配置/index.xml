@@ -1,4 +1,265 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>配置 on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</link><description>Recent content in 配置 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>配置</title><link>https://yzlevol.github.io/zh-cn/docs/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/configuration/</guid><description>&lt;p>Blowfish 适宜个高度定制化的主题，使用到了一些 Hugo 中最新的特性来简化配置方式。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/configuration/featured.svg"/></item><item><title>Front Matter(文件头信息)</title><link>https://yzlevol.github.io/zh-cn/docs/front-matter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/front-matter/</guid><description>&lt;p>除了 &lt;a href="https://gohugo.io/content-management/front-matter/#front-matter-variables" target="_blank">Hugo 中默认的 front matter&lt;/a>，Blowfish 主题中还添加了大量的参数选项来自定义单个页面的展示方式。所有可用的扉页参数如下。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/front-matter/featured.svg"/></item><item><title>多创作者模式</title><link>https://yzlevol.github.io/zh-cn/docs/multi-author/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/multi-author/</guid><description>&lt;p>一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认使用多创作者。对于这种情况，Blowfish 允许用户使用多创作者功能拓展创作者列表。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/multi-author/featured.svg"/></item><item><title>缩略图</title><link>https://yzlevol.github.io/zh-cn/docs/thumbnails/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/thumbnails/</guid><description>&lt;h2 class="relative group">缩略图
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>配置 on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</link><description>Recent content in 配置 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>配置</title><link>https://yzlevol.github.io/zh-cn/docs/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/configuration/</guid><description>&lt;p>Blowfish 适宜个高度定制化的主题，使用到了一些 Hugo 中最新的特性来简化配置方式。&lt;/p>
+&lt;p>主题附带了默认配置，可以让你快速启动一个基本的博客或静态网站。&lt;/p>
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+&lt;path fill="currentColor" d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>&lt;p>我们刚刚推出了 CLI 工具，来帮助你快速上手 Blowfish。它将帮助你进行安装和配置。使用以下命令可以全局范围安装 CLI 工具：&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/configuration/featured.svg"/></item><item><title>Front Matter(文件头信息)</title><link>https://yzlevol.github.io/zh-cn/docs/front-matter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/front-matter/</guid><description>&lt;p>除了 &lt;a href="https://gohugo.io/content-management/front-matter/#front-matter-variables" target="_blank">Hugo 中默认的 front matter&lt;/a>，Blowfish 主题中还添加了大量的参数选项来自定义单个页面的展示方式。所有可用的扉页参数如下。&lt;/p>
+&lt;p>front matter 参数中的默认值是从&lt;a href="https://yzlevol.github.io/zh-cn/docs/configuration/">基础配置&lt;/a>中继承的，所有只有当你想要覆盖默认值时，才需要在当前页面指定这些参数。&lt;/p>
+&lt;!-- prettier-ignore-start -->
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">默认值&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>title&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">文章名称。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>description&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">文章的描述信息，它会被添加在 HTML 的 &lt;code>&amp;lt;meta&amp;gt;&lt;/code> 元数据中。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>externalUrl&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">如果文章发布在第三方网站上，这里提供只想对应文章的 URL 地址。提供 URL 将会组织生成内容页面，对这篇文章的任何引用都会直接跳转到第三方网站的 URL 上面。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>editURL&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.editURL&lt;/code>&lt;/td>
+&lt;td style="text-align: left">当激活 &lt;code>showEdit&lt;/code> 参数时，此参数用来设置编辑文章的 URL。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>editAppendPath&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.editAppendPath&lt;/code>&lt;/td>
+&lt;td style="text-align: left">当激活 &lt;code>showEdit&lt;/code> 参数时，该参数指定是否将当前文章路径添加到 &lt;code>editURL&lt;/code> 设置的 URL 后面。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>groupByYear&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>list.groupByYear&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在列表页面按年份对文章进行分组。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>menu&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">当设置此值，这篇内容的链接将会出现在菜单中。有效值是 &lt;code>main&lt;/code> 或 &lt;code>footer&lt;/code>。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>robots&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">支持搜索引擎的爬虫如何处理这篇文章。如果设置了此值，它将在页面头部输出。更多内容请参考 &lt;a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#directives" target="_blank">Google 文档&lt;/a>。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>sharingLinks&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.sharingLinks&lt;/code>&lt;/td>
+&lt;td style="text-align: left">指定文章结尾显示哪些分享链接。如果没有设置或设置为 &lt;code>false&lt;/code> ，则没有分享链接。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showAuthor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showAuthor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在页脚处显示作者框。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showAuthorBottom&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showAuthorBottom&lt;/code>&lt;/td>
+&lt;td style="text-align: left">作者框显示在每页的底部而不是顶部。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>authors&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">用于展示多创作者的数组，如果设置了将会覆盖 &lt;code>showAuthor&lt;/code> 设置。这里使用了多作者的特性，查看&lt;a href="https://yzlevol.github.io/zh-cn/docs/multi-author/">这个页面&lt;/a>来获取更多信息。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showAuthorsBadges&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showAuthorsBadges&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章和列表页展示&lt;code>authors&lt;/code>作者分类。想是它生效需要开启&lt;code>multiple authors&lt;/code>多创作者和 &lt;code>authors&lt;/code> 作者分类。 查看&lt;a href="https://yzlevol.github.io/zh-cn/docs/multi-author/">这个页面&lt;/a>来获取更多信息。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>featureimage&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">基于外部 URL 的特征图片链接。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>featureimagecaption&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">特征图片的说明，仅在 hero 样式的 &lt;code>big&lt;/code> 风格下展示。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showHero&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showHero&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章页面将所裸土作为文章页面内的 hero 图片显示。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>heroStyle&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.heroStyle&lt;/code>&lt;/td>
+&lt;td style="text-align: left">hero 图片的风格，合法的值有： &lt;code>basic&lt;/code>、&lt;code>big&lt;/code>、&lt;code>background&lt;/code>、&lt;code>thumbAndBackground&lt;/code>。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showBreadcrumbs&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showBreadcrumbs&lt;/code> or &lt;code>list.showBreadcrumbs&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章或列表页面显示面包屑导航。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showDate&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showDate&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章的日期。具体日期使用 &lt;code>date&lt;/code> 参数设置。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showDateUpdated&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showDateUpdated&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章的更新日期。具体日期使用 &lt;code>lastmod&lt;/code> 参数设置。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showEdit&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showEdit&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示编辑文章内容的链接。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showHeadingAnchors&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showHeadingAnchors&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章的标题旁显示锚点链接。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showPagination&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showPagination&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章页脚显示下一篇/上一篇链接。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>invertPagination&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.invertPagination&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否翻转下一篇/上一篇的链接方向。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showReadingTime&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showReadingTime&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章的预估阅读时间。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showTaxonomies&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showTaxonomies&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章关联的分类/标签。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showTableOfContents&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showTableOfContents&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章目录。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showWordCount&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showWordCount&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章字数统计。如果你的语言属于 CJK 语言，需要在 &lt;code>config.toml&lt;/code> 中开启 &lt;code>hasCJKLanguage&lt;/code> 参数。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showComments&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showComments&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章页脚显示 &lt;a href="https://yzlevol.github.io/zh-cn/docs/partials/#comments">评论部分&lt;/a>。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showSummary&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>list.showSummary&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否在文章或列表页显示摘要。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showViews&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showViews&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章和列表页面的阅读量。这需要集成 firebase ，具体可以看&lt;a href="https://yzlevol.github.io/zh-cn/docs/firebase-views/">这个页面&lt;/a>来了解如何在 Blowfish 中集成firebase。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>showLikes&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.showLikes&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否显示文章和列表页面的点赞量。这需要集成 firebase ，具体可以看&lt;a href="https://yzlevol.github.io/zh-cn/docs/firebase-views/">这个页面&lt;/a>来了解如何在 Blowfish 中集成firebase。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>seriesOpened&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>article.seriesOpened&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否打开系列模块。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>series&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">文章所属的系列数组，我们建议每篇文章只属于一个系列。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>series_order&lt;/code>&lt;/td>
+&lt;td style="text-align: left">无&lt;/td>
+&lt;td style="text-align: left">文章在系列中的编号。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>summary&lt;/code>&lt;/td>
+&lt;td style="text-align: left">Auto generated using &lt;code>summaryLength&lt;/code> (see &lt;a href="https://yzlevol.github.io/zh-cn/docs/configuration/#site-configuration">site configuration&lt;/a>)&lt;/td>
+&lt;td style="text-align: left">当启用 &lt;code>showSummary&lt;/code> 时，这是作为这篇文章摘要的Markdown字符串。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>xml&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>true&lt;/code> unless excluded by &lt;code>sitemap.excludedKinds&lt;/code>&lt;/td>
+&lt;td style="text-align: left">是否将这篇文章包含在生成的 &lt;code>/sitemap.xml&lt;/code> 文件中。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>layoutBackgroundBlur&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>true&lt;/code>&lt;/td>
+&lt;td style="text-align: left">向下滚动主页时，是否模糊背景图。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>layoutBackgroundHeaderSpace&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>true&lt;/code>&lt;/td>
+&lt;td style="text-align: left">在标题和正文之间添加空白区域间隔。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;!-- prettier-ignore-end --></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/front-matter/featured.svg"/></item><item><title>多创作者模式</title><link>https://yzlevol.github.io/zh-cn/docs/multi-author/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/multi-author/</guid><description>&lt;p>一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认使用多创作者。对于这种情况，Blowfish 允许用户使用多创作者功能拓展创作者列表。&lt;/p>
+&lt;p>为了保持向后兼容，这个功能仅允许定义额外的创作者，并不会以任何方式修改之前通过配置文件添加的创作者。&lt;/p>
+&lt;h2 class="relative group">新建创作者
+&lt;div id="%E6%96%B0%E5%BB%BA%E5%88%9B%E4%BD%9C%E8%80%85" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E6%96%B0%E5%BB%BA%E5%88%9B%E4%BD%9C%E8%80%85" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>新建创作者的第一步是设置一个 &lt;code>./data/authors&lt;/code> 文件夹。然后，你可以在里面简单的添加新创作者的 &lt;code>json&lt;/code> 文件。文件的名称是你在文章引用该作者时需要指定的 &lt;code>key&lt;/code>。&lt;/p>
+&lt;p>例如，在 &lt;code>./data/authors&lt;/code> 文件夹中新建一个 &lt;code>nunocoracao.json&lt;/code> 文件。文件的内容示例如下。&lt;code>name&lt;/code>、&lt;code>image&lt;/code>、&lt;code>bio&lt;/code> 和 &lt;code>social&lt;/code> 是目前创作者文件支持的4个参数，这与你在 &lt;code>languages.[language-code].toml&lt;/code> 配置文件中的默认创作者配置类似。&lt;/p>
+&lt;p>&lt;em>注意：社交参数中的 &lt;code>key&lt;/code> 将会默认获取主题的图标 icon，当然你也可以在 &lt;code>assests/icons&lt;/code> 文件夹中设置任何图标。&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Nuno Coração&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;image&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;img/nuno_avatar.jpg&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;bio&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Theme Creator&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;social&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;linkedin&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://linkedin.com/in/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;twitter&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://twitter.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;instagram&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://instagram.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;medium&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://medium.com/@nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;github&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://github.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;goodreads&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;http://goodreads.com/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;keybase&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://keybase.io/nunocoracao&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;reddit&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://reddit.com/user/nunoheart&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 class="relative group">在文章中引用创作者
+&lt;div id="%E5%9C%A8%E6%96%87%E7%AB%A0%E4%B8%AD%E5%BC%95%E7%94%A8%E5%88%9B%E4%BD%9C%E8%80%85" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%9C%A8%E6%96%87%E7%AB%A0%E4%B8%AD%E5%BC%95%E7%94%A8%E5%88%9B%E4%BD%9C%E8%80%85" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>你已经新建好了创作者，下一步让我们在文章中引用它。在下面的实例中，我们使用前面新建的创作者 &lt;code>key&lt;/code> 来引用它。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/multi-author/featured.svg"/></item><item><title>缩略图</title><link>https://yzlevol.github.io/zh-cn/docs/thumbnails/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/thumbnails/</guid><description>&lt;h2 class="relative group">缩略图
 &lt;div id="%E7%BC%A9%E7%95%A5%E5%9B%BE" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -6,4 +267,34 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%E7%BC%A9%E7%95%A5%E5%9B%BE" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>Blowfish 对视觉支持进行了增强，可以让你轻松地为文章添加缩略图。你只需要将一个以 &lt;code>feature*&lt;/code> 开头的图像文件（支持几乎所有格式，但更推荐 &lt;code>.png&lt;/code> 或 &lt;code>.jpg&lt;/code>）放置在文章所在的目录中，如下面所示：&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/thumbnails/featured.svg"/></item></channel></rss>
+&lt;p>Blowfish 对视觉支持进行了增强，可以让你轻松地为文章添加缩略图。你只需要将一个以 &lt;code>feature*&lt;/code> 开头的图像文件（支持几乎所有格式，但更推荐 &lt;code>.png&lt;/code> 或 &lt;code>.jpg&lt;/code>）放置在文章所在的目录中，如下面所示：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">content
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── awesome_article
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── index.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └── featured.png
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这将告诉 Blowfish 这篇文章有一个特征图片，这个图片可以在网站作为缩略图使用，也可以用于社交平台上的 &lt;a target="_blank" href="https://oembed.com/">oEmbed&lt;/a> 卡片。&lt;/p>
+&lt;h2 class="relative group">文件结构
+&lt;div id="%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>如果你仅仅使用一个 &lt;code>.md&lt;/code> 文件作为文章，文件结构如下所示：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">content
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── awesome_article.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果想添加缩略图，你需要将单个 Markdown 文件放在文件夹中。创建一个与文章同名的目录，在其中创建 &lt;code>index.md&lt;/code> 文件。文件结构如下所示：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">content
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── awesome_article
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └── index.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后你只需要像之前那样添加一个特征图片。如果你想看示例，你可以参 &lt;a href="https://yzlevol.github.io/zh-cn/samples/thumbnail_sample/">这个示例&lt;/a>。&lt;/p>
+&lt;h2 class="relative group">Hero 图片
+&lt;div id="hero-%E5%9B%BE%E7%89%87" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#hero-%E5%9B%BE%E7%89%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>缩略图将默认用作每篇文章的 hero 图片。开启此功能，可以使用全局的 &lt;code>article.showHero&lt;/code> 参数来控制整个站点所有文章，或者扉页参数 &lt;code>showHero&lt;/code> 来控制其中一个文章。如果你想覆盖 hero 图片的样式，你可以在 &lt;code>./layouts/partials/&lt;/code> 文件夹中创建一个名为 &lt;code>hero.html&lt;/code> 的文件，它会覆盖主题中的默认部分。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/thumbnails/featured.svg"/></item></channel></rss>

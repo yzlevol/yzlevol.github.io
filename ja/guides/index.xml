@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>レシピ on Blowfish</title><link>https://yzlevol.github.io/ja/guides/</link><description>Recent content in レシピ on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/ja/guides/index.xml" rel="self" type="application/rss+xml"/><item><title>Build your homepage using Blowfish and Hugo</title><link>https://yzlevol.github.io/ja/guides/202310-blowfish-tutorial/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/guides/202310-blowfish-tutorial/</guid><description>Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/202310-blowfish-tutorial/featured.jpg"/></item><item><title>レシピテンプレート</title><link>https://yzlevol.github.io/ja/guides/template/</link><pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/guides/template/</guid><description>&lt;p>Blowfish コミュニティーのコントリビュートに興味を持っていただきありがとうございます。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>レシピ on Blowfish</title><link>https://yzlevol.github.io/ja/guides/</link><description>Recent content in レシピ on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/ja/guides/index.xml" rel="self" type="application/rss+xml"/><item><title>Build your homepage using Blowfish and Hugo</title><link>https://yzlevol.github.io/ja/guides/202310-blowfish-tutorial/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/guides/202310-blowfish-tutorial/</guid><description>Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/202310-blowfish-tutorial/featured.jpg"/></item><item><title>レシピテンプレート</title><link>https://yzlevol.github.io/ja/guides/template/</link><pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/guides/template/</guid><description>&lt;p>Blowfish コミュニティーのコントリビュートに興味を持っていただきありがとうございます。&lt;/p>
+&lt;h2 class="relative group">開始方法
+&lt;div id="%E9%96%8B%E5%A7%8B%E6%96%B9%E6%B3%95" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E9%96%8B%E5%A7%8B%E6%96%B9%E6%B3%95" aria-label="アンカー">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>こちらは Blowfish のガイドセクションに新しい記事を作成する方法を説明するテンプレート記事です。&lt;/p>
+&lt;h2 class="relative group">Blowfish をクローンする
+&lt;div id="blowfish-%E3%82%92%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%99%E3%82%8B" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#blowfish-%E3%82%92%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%99%E3%82%8B" aria-label="アンカー">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>こちらのコマンドでこのレポジトリをクローンします:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/nunocoracao/blowfish.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 class="relative group">ファイルを準備する
+&lt;div id="%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%BA%96%E5%82%99%E3%81%99%E3%82%8B" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%BA%96%E5%82%99%E3%81%99%E3%82%8B" aria-label="アンカー">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>この &lt;code>.md&lt;/code> ファイルが入っているフォルダ全体をコピーし、貼り付けます。&lt;/p>
+&lt;p>フォルダ名に利用する名前は &lt;code>YYYYMM-title&lt;/code> のようにスペースが利用できない規約となっています。&lt;/p>
+&lt;h2 class="relative group">ガイドを書く
+&lt;div id="%E3%82%AC%E3%82%A4%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8F" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E3%82%AC%E3%82%A4%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8F" aria-label="アンカー">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>あなたのガイドを書きます (&amp;lsquo;v&amp;rsquo;)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>

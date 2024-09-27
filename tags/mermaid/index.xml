@@ -7,4 +7,33 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#alert" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>&lt;code>alert&lt;/code> outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/shortcodes/featured.svg"/></item><item><title>Diagrams and Flowcharts</title><link>https://yzlevol.github.io/samples/diagrams-flowcharts/</link><pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/diagrams-flowcharts/</guid><description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description></item></channel></rss>
+&lt;p>&lt;code>alert&lt;/code> outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.&lt;/p>
+&lt;!-- prettier-ignore-start -->
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Parameter&lt;/th>
+&lt;th style="text-align: left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>icon&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the icon to display on the left side.&lt;br>&lt;strong>Default:&lt;/strong> &lt;code>triangle-exclamation&lt;/code> (Check out the &lt;a href="#icon">icon shortcode&lt;/a> for more details on using icons.)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>iconColor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the color for the icon in basic CSS style.&lt;br>Can be either hex values (&lt;code>#FFFFFF&lt;/code>) or color names (&lt;code>white&lt;/code>)&lt;br>By default chosen based on the current color theme .&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>cardColor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the color for the card background in basic CSS style.&lt;br>Can be either hex values (&lt;code>#FFFFFF&lt;/code>) or color names (&lt;code>white&lt;/code>)&lt;br>By default chosen based on the current color theme .&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>textColor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Optional.&lt;/strong> the color for the text in basic CSS style.&lt;br>Can be either hex values (&lt;code>#FFFFFF&lt;/code>) or color names (&lt;code>white&lt;/code>)&lt;br>By default chosen based on the current color theme .&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;!-- prettier-ignore-end -->
+&lt;p>The input is written in Markdown so you can format it however you please.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/shortcodes/featured.svg"/></item><item><title>Diagrams and Flowcharts</title><link>https://yzlevol.github.io/samples/diagrams-flowcharts/</link><pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/samples/diagrams-flowcharts/</guid><description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description></item></channel></rss>

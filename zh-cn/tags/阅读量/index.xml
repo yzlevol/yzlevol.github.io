@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>阅读量 on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/%E9%98%85%E8%AF%BB%E9%87%8F/</link><description>Recent content in 阅读量 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/zh-cn/tags/%E9%98%85%E8%AF%BB%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Firebase: 阅读量 &amp; 点赞量</title><link>https://yzlevol.github.io/zh-cn/docs/firebase-views/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/firebase-views/</guid><description>&lt;p>为了能够在网站中获取动态数据，我们支持了对 Firebase 的集成。这将允许你在列表和文章中使用阅读量功能。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/firebase-views/featured.svg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>阅读量 on Blowfish</title><link>https://yzlevol.github.io/zh-cn/tags/%E9%98%85%E8%AF%BB%E9%87%8F/</link><description>Recent content in 阅读量 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/zh-cn/tags/%E9%98%85%E8%AF%BB%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Firebase: 阅读量 &amp; 点赞量</title><link>https://yzlevol.github.io/zh-cn/docs/firebase-views/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/zh-cn/docs/firebase-views/</guid><description>&lt;p>为了能够在网站中获取动态数据，我们支持了对 Firebase 的集成。这将允许你在列表和文章中使用阅读量功能。&lt;/p>
+&lt;ol>
+&lt;li>访问 &lt;a target="_blank" href="https://firebase.com">Firebase&lt;/a> 并创建一个账户&lt;/li>
+&lt;li>创建一个新项目&lt;/li>
+&lt;li>选择分析位置&lt;/li>
+&lt;li>Blowfish 是通过 &lt;code>params.toml&lt;/code> 配置文件中的 firebase 相关参数，来和 firebase 集成的，更多的细节内容可以参考 &lt;a target="_blank" href="https://yzlevol.github.io/zh-cn/docs/configuration/#theme-parameters">这个页面&lt;/a>。你可以在下面找到集成 firebase 的文件示例，请注意 FirebaseConfig 对象内的参数。&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>// 从你需要的 SDK 中导入所需的函数
+import { initializeApp } from &amp;#34;firebase/app&amp;#34;;
+import { getAnalytics } from &amp;#34;firebase/analytics&amp;#34;;
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+// 你 Web 应用的 Firebase 配置
+// 对于 Firebase JS SDK v7.20.0 以及更高版本，measurementId 参数是可选的
+const firebaseConfig = {
+apiKey: &amp;#34;AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY&amp;#34;,
+authDomain: &amp;#34;blowfish-21fff.firebaseapp.com&amp;#34;,
+projectId: &amp;#34;blowfish-21fff&amp;#34;,
+storageBucket: &amp;#34;blowfish-21fff.appspot.com&amp;#34;,
+messagingSenderId: &amp;#34;60108104191&amp;#34;,
+appId: &amp;#34;1:60108104191:web:039842ebe1370698b487ca&amp;#34;,
+measurementId: &amp;#34;G-PEDMYR1V0K&amp;#34;
+};
+// 初始化 Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+&lt;/code>&lt;/pre>&lt;ol start="5">
+&lt;li>设置 Firestore - 选择 Build 并打开 Firestore. 创建一个数据库，并在生产环境中启动。选择服务器位置然后等待其部署完成。启动之后你需要配置规则。只需要复制并粘贴下面的内容，然后点击发布即可。&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>rules_version = &amp;#39;2&amp;#39;;
+service cloud.firestore {
+match /databases/{database}/documents {
+match /{document=**} {
+allow read, write: if request.auth != null;
+}
+}
+}
+&lt;/code>&lt;/pre>&lt;ol start="6">
+&lt;li>开启匿名授权 - 选择 Build 并打开 Authentication。选择开始，点击 Anonymous 并开启，保存。&lt;/li>
+&lt;li>享受 - 现在可以激活 Blowfish 中文章阅读量和点赞量的功能。&lt;/li>
+&lt;/ol></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/firebase-views/featured.svg"/></item></channel></rss>

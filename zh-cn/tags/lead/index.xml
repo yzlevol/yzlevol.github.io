@@ -7,4 +7,53 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#alert" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>&lt;code>alert&lt;/code> 可以将其中内容输出为文章中的风格化消息框。它对于吸引读者注意您不想让读者错过的重要信息很有用。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/shortcodes/featured.svg"/></item></channel></rss>
+&lt;p>&lt;code>alert&lt;/code> 可以将其中内容输出为文章中的风格化消息框。它对于吸引读者注意您不想让读者错过的重要信息很有用。&lt;/p>
+&lt;!-- prettier-ignore-start -->
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">参数&lt;/th>
+&lt;th style="text-align: left">功能&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>icon&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 显示在左侧的图标。&lt;br>&lt;strong>默认：&lt;/strong> &lt;code>exclaimation triangle icon&lt;/code> (查看&lt;a href="#icon">图标简码&lt;/a>，了解有关使用图标的更多详细信息。)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>iconColor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 基本 CSS 样式中图标的颜色。&lt;br>可以是十六进制值 (&lt;code>#FFFFFF&lt;/code>) 或颜色名称 (&lt;code>white&lt;/code>)&lt;br>默认情况下由当前配色方案决定。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>cardColor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 基本 CSS 样式中卡片背景的颜色。&lt;br>可以是十六进制值 (&lt;code>#FFFFFF&lt;/code>) 或颜色名称 (&lt;code>white&lt;/code>)&lt;br>默认情况下由当前配色方案决定。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>textColor&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 基本 CSS 样式中文本的颜色。&lt;br>可以是十六进制值 (&lt;code>#FFFFFF&lt;/code>) 或颜色名称 (&lt;code>white&lt;/code>)&lt;br>默认情况下由当前配色方案决定。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;!-- prettier-ignore-end -->
+&lt;p>输入内容是用 Markdown 语言编写的，因此您可以根据需要设置其格式。&lt;/p>
+&lt;p>&lt;strong>例1:&lt;/strong> 无参数&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">alert&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">**警告！**此操作具有破坏性！
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">alert&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>**警告！**此操作具有破坏性！&lt;/span>
+&lt;/div>
+&lt;p>&lt;strong>例2:&lt;/strong> 未命名参数&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/shortcodes/featured.svg"/></item></channel></rss>

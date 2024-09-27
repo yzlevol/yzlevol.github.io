@@ -7,4 +7,24 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#how-to-start" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>
+&lt;p>This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.&lt;/p>
+&lt;h2 class="relative group">Clone Blowfish
+&lt;div id="clone-blowfish" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#clone-blowfish" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Clone this repo with the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/nunocoracao/blowfish.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 class="relative group">Setup your files
+&lt;div id="setup-your-files" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#setup-your-files" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Copy and paste the entire folder where this &lt;code>.md&lt;/code> file is.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>

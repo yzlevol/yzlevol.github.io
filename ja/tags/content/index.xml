@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content on Blowfish</title><link>https://yzlevol.github.io/ja/tags/content/</link><description>Recent content in Content on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/ja/tags/content/index.xml" rel="self" type="application/rss+xml"/><item><title>Content Examples</title><link>https://yzlevol.github.io/ja/docs/content-examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/docs/content-examples/</guid><description>&lt;p>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/content-examples/featured.svg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content on Blowfish</title><link>https://yzlevol.github.io/ja/tags/content/</link><description>Recent content in Content on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/ja/tags/content/index.xml" rel="self" type="application/rss+xml"/><item><title>Content Examples</title><link>https://yzlevol.github.io/ja/docs/content-examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/docs/content-examples/</guid><description>&lt;p>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.&lt;/p>
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>&lt;strong>Tip:&lt;/strong> If you&amp;rsquo;re new to Hugo, be sure to check out the &lt;a href="https://gohugo.io/content-management/page-bundles/" target="_blank">official docs&lt;/a> to learn more about the concept of page bundles and resources.&lt;/span>
+&lt;/div>
+&lt;p>The examples on this page can all be adapted to different scenarios but hopefully give you some ideas about how to approach formatting a particular content item for your individual project.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/content-examples/featured.svg"/></item></channel></rss>
