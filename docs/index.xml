@@ -426,4 +426,11 @@ allow read, write: if request.auth != null;
 &lt;/code>&lt;/pre>&lt;ol start="6">
 &lt;li>Enable anonymous authorization - Select Build and open Authentication. Select get started, click Anonymous and turn it on, save.&lt;/li>
 &lt;li>Enjoy - you can now activate views and likes on Blowfish for all (or specific) articles.&lt;/li>
-&lt;/ol></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/firebase-views/featured.svg"/></item></channel></rss>
+&lt;/ol></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/firebase-views/featured.svg"/></item><item><title>Documenti</title><link>https://yzlevol.github.io/docs/_index.it/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/docs/_index.it/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+Semplice ma potente. Scopri come utilizzare Blowfish e le sue funzionalità.
+&lt;/div>
+&lt;p>Questa sezione contiene tutto ciò che devi sapere su Blowfish. Se sei nuovo, consulta la guida &lt;a href="https://yzlevol.github.io/docs/installation/">Installazione&lt;/a> per iniziare o visita la sezione &lt;a href="https://yzlevol.github.io/samples/">Esempi&lt;/a> per vedere cosa può fare Blowfish.&lt;/p></description></item><item><title>資料</title><link>https://yzlevol.github.io/docs/_index.ja/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/docs/_index.ja/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+シンプル、それでいて強力。 Blowfish の利用方法と特徴について学ぶ。
+&lt;/div>
+&lt;p>このセクションは Blowfish について知る必要のある全てのことが含まれています。新しく作成する場合は、開始するために&lt;a href="https://yzlevol.github.io/docs/installation/">インストール&lt;/a>ガイド、または Blowfish が何が出来るか&lt;a href="https://yzlevol.github.io/samples/">サンプル&lt;/a>セクションに訪れてください。&lt;/p>
+&lt;hr></description></item></channel></rss>

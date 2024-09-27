@@ -27,4 +27,14 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#setup-your-files" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>Copy and paste the entire folder where this &lt;code>.md&lt;/code> file is.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>
+&lt;p>Copy and paste the entire folder where this &lt;code>.md&lt;/code> file is.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item><item><title>Recipes</title><link>https://yzlevol.github.io/guides/_index.it/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/guides/_index.it/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+Recipes, guides, and tutorials for Blowfish
+&lt;/div>
+&lt;p>&lt;strong>Blowfish user?&lt;/strong> To add your guide to this list, &lt;a href="https://yzlevol.github.io/guides/template/">check the template&lt;/a>.&lt;/p>
+&lt;p>This section contains guides for a variety of scenarios on how to configure your theme. If you&amp;rsquo;re new, check out the &lt;a href="https://yzlevol.github.io/docs/installation/">Installation&lt;/a> guide to begin or visit the &lt;a href="https://yzlevol.github.io/samples/">Samples&lt;/a> section to see what Blowfish can do.&lt;/p>
+&lt;hr></description></item><item><title>レシピ</title><link>https://yzlevol.github.io/guides/_index.ja/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>nuno@n9o.xyz (Blowfish)</author><guid>https://yzlevol.github.io/guides/_index.ja/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+Blowfish のためのレシピ、ガイド、チュートリアル
+&lt;/div>
+&lt;p>&lt;strong>Blowfish ユーザーですか?&lt;/strong> この一覧にあなたのガイドを加える際は、&lt;a href="https://yzlevol.github.io/guides/template/">テンプレートを確認&lt;/a>してください。&lt;/p>
+&lt;p>このセクションではあなたのテーマの設定方法する様々なシナリオを含んでいます。新しく作成する場合は、開始するために&lt;a href="https://yzlevol.github.io/docs/installation/">インストール&lt;/a>ガイド、または Blowfish が何が出来るか&lt;a href="https://yzlevol.github.io/samples/">サンプル&lt;/a>セクションに訪れてください。&lt;/p>
+&lt;hr></description></item></channel></rss>
