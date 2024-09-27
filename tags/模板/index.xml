@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>模板 on yzlevol-blog</title><link>https://yzlevol.github.io/tags/%E6%A8%A1%E6%9D%BF/</link><description>Recent content in 模板 on yzlevol-blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Tue, 22 Dec 1987 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>使用指南模板</title><link>https://yzlevol.github.io/guides/template/</link><pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/guides/template/</guid><description>&lt;p>感谢您愿意为 Blowfish 社区做出贡献。&lt;/p>
+&lt;h2 class="relative group">如何开始？
+&lt;div id="%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>这是一篇模板文章，将解释如何为 Blowfish 的指南部分创建新文章。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/guides/template/featured.jpg"/></item></channel></rss>
