@@ -1,54 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>日常 on Blog</title>
-    <link>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
-    <description>Recent content in 日常 on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>© 2024 Hyoung Yan</copyright>
-    <lastBuildDate>Sat, 28 Sep 2024 00:30:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2024 09 28</title>
-      <link>http://localhost:1313/posts/daily/2024-09-28/</link>
-      <pubDate>Sat, 28 Sep 2024 00:30:57 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/daily/2024-09-28/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;ONE 
-    &lt;div id=&#34;one&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#one&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;div style=&#34;text-align: center;&#34;&gt;
-    &lt;p&gt;二零二四年九月廿六日，星期四，晴&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-
-
-&lt;h2 class=&#34;relative group&#34;&gt;TWO 
-    &lt;div id=&#34;two&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#two&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HcSE3cQH-Ic?si=Z0zeizBbsqmpJ8u7&amp;amp;controls=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;hr&gt;
-&lt;div style=&#34;text-align: center;&#34;&gt;
-    &lt;h2&gt;Good Night&lt;/h2&gt;
-&lt;/div&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日常 on Blog</title><link>https://yzlevol.github.io/tags/%E6%97%A5%E5%B8%B8/</link><description>Recent content in 日常 on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Sat, 28 Sep 2024 00:30:57 +0800</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>2024 09 28</title><link>https://yzlevol.github.io/posts/daily/2024-09-28/</link><pubDate>Sat, 28 Sep 2024 00:30:57 +0800</pubDate><guid>https://yzlevol.github.io/posts/daily/2024-09-28/</guid><description>&lt;h2 class="relative group">ONE
+&lt;div id="one" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#one" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;div style="text-align: center;">
+&lt;p>二零二四年九月廿六日，星期六，晴&lt;/p>
+&lt;/div>
+&lt;hr>
+&lt;h2 class="relative group">TWO
+&lt;div id="two" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#two" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;center>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/HcSE3cQH-Ic?si=Z0zeizBbsqmpJ8u7&amp;amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;/center>
+&lt;hr>
+&lt;div style="text-align: center;">
+&lt;h2>Good Night&lt;/h2>
+&lt;/div></description></item></channel></rss>
