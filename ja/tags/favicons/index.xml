@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Favicons on Blowfish</title><link>https://yzlevol.github.io/ja/tags/favicons/</link><description>Recent content in Favicons on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© 2024 Blowfish</copyright><atom:link href="https://yzlevol.github.io/ja/tags/favicons/index.xml" rel="self" type="application/rss+xml"/><item><title>Partials</title><link>https://yzlevol.github.io/ja/docs/partials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/docs/partials/</guid><description>&lt;h2 class="relative group">Analytics
-&lt;div id="analytics" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#analytics" aria-label="アンカー">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/partials/featured.svg"/></item></channel></rss>
