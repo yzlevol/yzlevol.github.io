@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Blowfish</title>
-    <link>http://localhost:1313/ja/categories/</link>
-    <description>Recent content in Categories on Blowfish</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <copyright>© 2024 Blowfish</copyright>
-    <atom:link href="http://localhost:1313/ja/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Blowfish</title><link>https://yzlevol.github.io/ja/categories/</link><description>Recent content in Categories on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/ja/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Blowfish</title><link>https://yzlevol.github.io/ja/categories/blowfish/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/categories/blowfish/</guid><description/></item><item><title>Open-Source</title><link>https://yzlevol.github.io/ja/categories/open-source/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/ja/categories/open-source/</guid><description/></item></channel></rss>
