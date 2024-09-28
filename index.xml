@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>欢迎来到 Blowfish! :tada: on Blog</title><link>https://yzlevol.github.io/</link><description>Recent content in 欢迎来到 Blowfish! :tada: on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Sat, 28 Sep 2024 01:45:00 +0800</lastBuildDate><atom:link href="https://yzlevol.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Test1</title><link>https://yzlevol.github.io/docs/test/test1/</link><pubDate>Sat, 28 Sep 2024 01:45:00 +0800</pubDate><guid>https://yzlevol.github.io/docs/test/test1/</guid><description/></item><item><title>2024 09 27</title><link>https://yzlevol.github.io/posts/daily/2024-09-27/</link><pubDate>Sat, 28 Sep 2024 01:28:59 +0800</pubDate><guid>https://yzlevol.github.io/posts/daily/2024-09-27/</guid><description/></item><item><title>2024 09 28</title><link>https://yzlevol.github.io/posts/daily/2024-09-28/</link><pubDate>Sat, 28 Sep 2024 00:30:57 +0800</pubDate><guid>https://yzlevol.github.io/posts/daily/2024-09-28/</guid><description>&lt;h2 class="relative group">ONE
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>欢迎来到 Blowfish! :tada: on Blog</title><link>https://yzlevol.github.io/</link><description>Recent content in 欢迎来到 Blowfish! :tada: on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Sat, 28 Sep 2024 01:44:08 +0800</lastBuildDate><atom:link href="https://yzlevol.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>全平台命令行换源工具 chsrc</title><link>https://yzlevol.github.io/docs/change-the-source/</link><pubDate>Sat, 28 Sep 2024 01:28:59 +0800</pubDate><guid>https://yzlevol.github.io/docs/change-the-source/</guid><description>&lt;h3 class="relative group">介绍
+&lt;div id="%E4%BB%8B%E7%BB%8D" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E4%BB%8B%E7%BB%8D" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>这是一款全平台通用的换源工具/框架，目标支持 Linux, Windows (MSYS2, Cygwin), macOS, BSD 等尽可能多的操作系统环境，龙芯、飞腾、RISC-V 等尽可能多的 CPU。&lt;/p>
+&lt;h3 class="relative group">特性
+&lt;div id="%E7%89%B9%E6%80%A7" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E7%89%B9%E6%80%A7" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>chsrc 不仅是一个命令行工具，同时也是一个换源框架，它甚至使你能够在不了解 C 语言的情况下编写出新的换源方法。&lt;/p>
+&lt;p>立刻为一个新软件添加换源方法！&lt;a href="https://github.com/RubyMetric/chsrc/blob/main/doc/Write-A-Recipe-Even-If-You-Dont-Know-C.md" target="_blank">添加自定义源&lt;/a>&lt;/p>
+&lt;h3 class="relative group">安装
+&lt;div id="%E5%AE%89%E8%A3%85" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Windows
+通过 scoop 安装：&lt;code>$ scoop install chsrc&lt;/code>&lt;/p>
+&lt;p>手动下载：&lt;/p>
+&lt;p>&lt;code>curl -L https://gitee.com/RubyMetric/chsrc/releases/download/pre/chsrc-x64-windows.exe -o chsrc.exe&lt;/code>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/change-the-source/featured.png"/></item><item><title>2024 09 28</title><link>https://yzlevol.github.io/posts/daily/2024-9-28/</link><pubDate>Sat, 28 Sep 2024 00:30:57 +0800</pubDate><guid>https://yzlevol.github.io/posts/daily/2024-9-28/</guid><description>&lt;h2 class="relative group">ONE
 &lt;div id="one" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -24,4 +56,4 @@ style="text-decoration-line: none !important;" href="#two" aria-label="锚点">#
 &lt;hr>
 &lt;div style="text-align: center;">
 &lt;h2>Good Night&lt;/h2>
-&lt;/div></description></item></channel></rss>
+&lt;/div></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/posts/daily/2024-9-28/featured.jpg"/></item><item><title>2024 09 27</title><link>https://yzlevol.github.io/posts/daily/2024-9-27/</link><pubDate>Fri, 27 Sep 2024 01:45:57 +0800</pubDate><guid>https://yzlevol.github.io/posts/daily/2024-9-27/</guid><description/><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/posts/daily/2024-9-27/featured.webp"/></item></channel></rss>
