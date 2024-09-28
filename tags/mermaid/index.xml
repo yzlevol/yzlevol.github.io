@@ -1,59 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mermaid on Blog</title><link>https://yzlevol.github.io/tags/mermaid/</link><description>Recent content in Mermaid on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/mermaid/index.xml" rel="self" type="application/rss+xml"/><item><title>简码</title><link>https://yzlevol.github.io/docs/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/docs/shortcodes/</guid><description>&lt;p>除了所有&lt;a href="https://gohugo.io/content-management/shortcodes/" target="_blank">默认 Hugo 简码&lt;/a> 之外，Blowfish 还添加了一些额外的功能。&lt;/p>
-&lt;h2 class="relative group">Alert
-&lt;div id="alert" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#alert" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>&lt;code>alert&lt;/code> 可以将其中内容输出为文章中的风格化消息框。它对于吸引读者注意您不想让读者错过的重要信息很有用。&lt;/p>
-&lt;!-- prettier-ignore-start -->
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">参数&lt;/th>
-&lt;th style="text-align: left">功能&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>icon&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 显示在左侧的图标。&lt;br>&lt;strong>默认：&lt;/strong> &lt;code>exclaimation triangle icon&lt;/code> (查看&lt;a href="#icon">图标简码&lt;/a>，了解有关使用图标的更多详细信息。)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>iconColor&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 基本 CSS 样式中图标的颜色。&lt;br>可以是十六进制值 (&lt;code>#FFFFFF&lt;/code>) 或颜色名称 (&lt;code>white&lt;/code>)&lt;br>默认情况下由当前配色方案决定。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>cardColor&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 基本 CSS 样式中卡片背景的颜色。&lt;br>可以是十六进制值 (&lt;code>#FFFFFF&lt;/code>) 或颜色名称 (&lt;code>white&lt;/code>)&lt;br>默认情况下由当前配色方案决定。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>textColor&lt;/code>&lt;/td>
-&lt;td style="text-align: left">&lt;strong>可选&lt;/strong> 基本 CSS 样式中文本的颜色。&lt;br>可以是十六进制值 (&lt;code>#FFFFFF&lt;/code>) 或颜色名称 (&lt;code>white&lt;/code>)&lt;br>默认情况下由当前配色方案决定。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;!-- prettier-ignore-end -->
-&lt;p>输入内容是用 Markdown 语言编写的，因此您可以根据需要设置其格式。&lt;/p>
-&lt;p>&lt;strong>例1:&lt;/strong> 无参数&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">alert&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">**警告！**此操作具有破坏性！
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">alert&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mermaid on Blog</title>
+    <link>http://localhost:1313/tags/mermaid/</link>
+    <description>Recent content in Mermaid on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Hyoung Yan</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简码</title>
+      <link>http://localhost:1313/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/shortcodes/</guid>
+      <description>&lt;p&gt;除了所有&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34; target=&#34;_blank&#34;&gt;默认 Hugo 简码&lt;/a&gt; 之外，Blowfish 还添加了一些额外的功能。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Alert 
+    &lt;div id=&#34;alert&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#alert&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;alert&lt;/code&gt; 可以将其中内容输出为文章中的风格化消息框。它对于吸引读者注意您不想让读者错过的重要信息很有用。&lt;/p&gt;
+&lt;!-- prettier-ignore-start --&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;参数&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;功能&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;icon&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;可选&lt;/strong&gt; 显示在左侧的图标。&lt;br&gt;&lt;strong&gt;默认：&lt;/strong&gt; &lt;code&gt;exclaimation triangle icon&lt;/code&gt; (查看&lt;a href=&#34;#icon&#34;&gt;图标简码&lt;/a&gt;，了解有关使用图标的更多详细信息。)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;iconColor&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;可选&lt;/strong&gt; 基本 CSS 样式中图标的颜色。&lt;br&gt;可以是十六进制值 (&lt;code&gt;#FFFFFF&lt;/code&gt;) 或颜色名称 (&lt;code&gt;white&lt;/code&gt;)&lt;br&gt;默认情况下由当前配色方案决定。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;cardColor&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;可选&lt;/strong&gt; 基本 CSS 样式中卡片背景的颜色。&lt;br&gt;可以是十六进制值 (&lt;code&gt;#FFFFFF&lt;/code&gt;) 或颜色名称 (&lt;code&gt;white&lt;/code&gt;)&lt;br&gt;默认情况下由当前配色方案决定。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;textColor&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;可选&lt;/strong&gt; 基本 CSS 样式中文本的颜色。&lt;br&gt;可以是十六进制值 (&lt;code&gt;#FFFFFF&lt;/code&gt;) 或颜色名称 (&lt;code&gt;white&lt;/code&gt;)&lt;br&gt;默认情况下由当前配色方案决定。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- prettier-ignore-end --&gt;
+&lt;p&gt;输入内容是用 Markdown 语言编写的，因此您可以根据需要设置其格式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;例1:&lt;/strong&gt; 无参数&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;alert&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;**警告！**此操作具有破坏性！
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;alert&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  
+
+
+
 &lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->**警告！**此操作具有破坏性！&lt;/span>
-&lt;/div>
-&lt;p>&lt;strong>例2:&lt;/strong> 未命名参数&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/shortcodes/featured.svg"/></item><item><title>流程图和思维导图</title><link>https://yzlevol.github.io/samples/diagrams-flowcharts/</link><pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/samples/diagrams-flowcharts/</guid><description>使用 Mermaid 可以轻松地将图表和流程图添加到文章中。</description></item></channel></rss>
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;**警告！**此操作具有破坏性！&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;例2:&lt;/strong&gt; 未命名参数&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>流程图和思维导图</title>
+      <link>http://localhost:1313/samples/diagrams-flowcharts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/samples/diagrams-flowcharts/</guid>
+      <description>使用 Mermaid 可以轻松地将图表和流程图添加到文章中。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

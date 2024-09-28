@@ -1,35 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>主页 on Blog</title><link>https://yzlevol.github.io/tags/%E4%B8%BB%E9%A1%B5/</link><description>Recent content in 主页 on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><atom:link href="https://yzlevol.github.io/tags/%E4%B8%BB%E9%A1%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>主页布局</title><link>https://yzlevol.github.io/docs/homepage-layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/docs/homepage-layout/</guid><description>&lt;p>Blowfish 提供了一个完全灵活的主页布局。你可以选择两种主要模板，并提供了额外的参数来帮助调整设计。当然，你也可以提供自己的模板，完全控制主页的内容。&lt;/p>
-&lt;p>主页布局由 &lt;code>params.toml&lt;/code> 配置文件中的 &lt;code>homepage.layout&lt;/code> 参数来控制的。此外所有布局都默认包括 &lt;a href="#recent-articles">最近文章&lt;/a>。&lt;/p>
-&lt;h2 class="relative group">个人资料布局 (profile)
-&lt;div id="%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E5%B8%83%E5%B1%80-profile" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E5%B8%83%E5%B1%80-profile" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>默认的布局是 profile 布局，这非常适合个人网站和博客。它将作者的详细信息置于中心位置，并附带了头像和社交平台的链接。&lt;/p>
-&lt;img class="thumbnailshadow" src="img/home-profile.png"/>
-&lt;p>作者信息是在语言配置文件中提供的。具体的参数详情，请参考&lt;a href="https://yzlevol.github.io/docs/getting-started/">快速入门&lt;/a>和&lt;a href="https://yzlevol.github.io/docs/configuration/##language-and-i18n">语言配置&lt;/a>的内容。&lt;/p>
-&lt;p>此外，主页内容中提供的任何 Markdown 都会显示在作者资料的下方。这对使用短代码显示简介或其他主页的自定义内容提供了更多的灵活性。&lt;/p>
-&lt;p>如果想要启用 profile 布局，请在 &lt;code>params.toml&lt;/code> 配置文件中设置 &lt;code>homepage.layout = &amp;quot;profile&amp;quot;&lt;/code>。&lt;/p>
-&lt;h2 class="relative group">页面布局（page）
-&lt;div id="%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80page" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80page" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>页面布局只会简单的显示你的 Markdown 内容，这种方式非常适合静态网站，并提供了很多灵活性。&lt;/p>
-&lt;img class="thumbnailshadow" src="img/home-page.png"/>
-&lt;p>如果想要启用 page 布局，请在 &lt;code>params.toml&lt;/code> 配置文件中设置 &lt;code>homepage.layout = &amp;quot;page&amp;quot;&lt;/code>。&lt;/p>
-&lt;h2 class="relative group">英雄布局（hero）
-&lt;div id="%E8%8B%B1%E9%9B%84%E5%B8%83%E5%B1%80hero" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E8%8B%B1%E9%9B%84%E5%B8%83%E5%B1%80hero" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>英雄布局（hero）组合了个人资料布局（profile）和卡片布局（card）。它不仅显示了网站作者的个人信息，还在个人资料下方加载了你的 markdown 内容。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/homepage-layout/featured.svg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>主页 on Blog</title>
+    <link>http://localhost:1313/tags/%E4%B8%BB%E9%A1%B5/</link>
+    <description>Recent content in 主页 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Hyoung Yan</copyright>
+    <atom:link href="http://localhost:1313/tags/%E4%B8%BB%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>主页布局</title>
+      <link>http://localhost:1313/docs/homepage-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/homepage-layout/</guid>
+      <description>&lt;p&gt;Blowfish 提供了一个完全灵活的主页布局。你可以选择两种主要模板，并提供了额外的参数来帮助调整设计。当然，你也可以提供自己的模板，完全控制主页的内容。&lt;/p&gt;
+&lt;p&gt;主页布局由 &lt;code&gt;params.toml&lt;/code&gt; 配置文件中的 &lt;code&gt;homepage.layout&lt;/code&gt; 参数来控制的。此外所有布局都默认包括 &lt;a href=&#34;#recent-articles&#34;&gt;最近文章&lt;/a&gt;。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;个人资料布局 (profile) 
+    &lt;div id=&#34;%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E5%B8%83%E5%B1%80-profile&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E5%B8%83%E5%B1%80-profile&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;默认的布局是 profile 布局，这非常适合个人网站和博客。它将作者的详细信息置于中心位置，并附带了头像和社交平台的链接。&lt;/p&gt;
+&lt;img class=&#34;thumbnailshadow&#34; src=&#34;img/home-profile.png&#34;/&gt;
+&lt;p&gt;作者信息是在语言配置文件中提供的。具体的参数详情，请参考&lt;a href=&#34;http://localhost:1313/docs/getting-started/&#34;&gt;快速入门&lt;/a&gt;和&lt;a href=&#34;http://localhost:1313/docs/configuration/##language-and-i18n&#34;&gt;语言配置&lt;/a&gt;的内容。&lt;/p&gt;
+&lt;p&gt;此外，主页内容中提供的任何 Markdown 都会显示在作者资料的下方。这对使用短代码显示简介或其他主页的自定义内容提供了更多的灵活性。&lt;/p&gt;
+&lt;p&gt;如果想要启用 profile 布局，请在 &lt;code&gt;params.toml&lt;/code&gt; 配置文件中设置 &lt;code&gt;homepage.layout = &amp;quot;profile&amp;quot;&lt;/code&gt;。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;页面布局（page） 
+    &lt;div id=&#34;%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80page&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80page&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;页面布局只会简单的显示你的 Markdown 内容，这种方式非常适合静态网站，并提供了很多灵活性。&lt;/p&gt;
+&lt;img class=&#34;thumbnailshadow&#34; src=&#34;img/home-page.png&#34;/&gt;
+&lt;p&gt;如果想要启用 page 布局，请在 &lt;code&gt;params.toml&lt;/code&gt; 配置文件中设置 &lt;code&gt;homepage.layout = &amp;quot;page&amp;quot;&lt;/code&gt;。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;英雄布局（hero） 
+    &lt;div id=&#34;%E8%8B%B1%E9%9B%84%E5%B8%83%E5%B1%80hero&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E8%8B%B1%E9%9B%84%E5%B8%83%E5%B1%80hero&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;英雄布局（hero）组合了个人资料布局（profile）和卡片布局（card）。它不仅显示了网站作者的个人信息，还在个人资料下方加载了你的 markdown 内容。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/homepage-layout/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

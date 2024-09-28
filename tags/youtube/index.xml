@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youtube on Blog</title><link>https://yzlevol.github.io/tags/youtube/</link><description>Recent content in Youtube on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>简码示例</title><link>https://yzlevol.github.io/samples/rich-content/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/samples/rich-content/</guid><description>这是&lt;strong>简码&lt;/strong>内容的示例。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Youtube on Blog</title>
+    <link>http://localhost:1313/tags/youtube/</link>
+    <description>Recent content in Youtube on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Hyoung Yan</copyright>
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简码示例</title>
+      <link>http://localhost:1313/samples/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/samples/rich-content/</guid>
+      <description>这是&lt;strong&gt;简码&lt;/strong&gt;内容的示例。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

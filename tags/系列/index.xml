@@ -1,37 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>系列 on Blog</title><link>https://yzlevol.github.io/tags/%E7%B3%BB%E5%88%97/</link><description>Recent content in 系列 on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><atom:link href="https://yzlevol.github.io/tags/%E7%B3%BB%E5%88%97/index.xml" rel="self" type="application/rss+xml"/><item><title>系列</title><link>https://yzlevol.github.io/docs/series/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/docs/series/</guid><description>&lt;p>Blowfish 提供了将一组文章分组到“系列”下的功能。将文章放在系列下将在每个页面中显示该系列文章的其余部分，并在它们之间提供快速导航。您可以在上面看到一个例子。&lt;/p>
-&lt;h2 class="relative group">创建分类
-&lt;div id="%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>启用系列的第一步是创建 &lt;code>series&lt;/code> 分类法。为此，只需将 &lt;code>series&lt;/code> 分类法添加到 &lt;code>config.toml&lt;/code> 中的分类法列表中即可。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">taxonomies&lt;/span>&lt;span class="p">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">tag&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;tags&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">category&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;categories&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;authors&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">series&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;series&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2 class="relative group">标记文章
-&lt;div id="%E6%A0%87%E8%AE%B0%E6%96%87%E7%AB%A0" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E6%A0%87%E8%AE%B0%E6%96%87%E7%AB%A0" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>然后你只需要添加 &lt;code>series&lt;/code> 和 &lt;code>series_order&lt;/code> 参数。 &lt;code>series&lt;/code> 参数将是您要将文章放入的系列名称。 &lt;code>series_order&lt;/code> 定义了文章在该系列中的顺序。在下面的示例中，文章是 &lt;code>Documentation&lt;/code> 系列中的第 &lt;code>11&lt;/code> 篇文章。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="line">&lt;span class="cl">series: [&amp;#34;Documentation&amp;#34;]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">series_order: 11
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2 class="relative group">系列的表现形式
-&lt;div id="%E7%B3%BB%E5%88%97%E7%9A%84%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E7%B3%BB%E5%88%97%E7%9A%84%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>将文章标记为系列的一部分将自动显示系列模块，例如您在下方看到的这样。您可以使用 &lt;code>params.toml&lt;/code> 中的 &lt;code>article.seriesOpened&lt;/code> 全局变量或参数 &lt;code>seriesOpened&lt;/code> 来选择该模块是否开始打开，以指定文章级别的覆盖。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/series/featured.svg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>系列 on Blog</title>
+    <link>http://localhost:1313/tags/%E7%B3%BB%E5%88%97/</link>
+    <description>Recent content in 系列 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Hyoung Yan</copyright>
+    <atom:link href="http://localhost:1313/tags/%E7%B3%BB%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>系列</title>
+      <link>http://localhost:1313/docs/series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/series/</guid>
+      <description>&lt;p&gt;Blowfish 提供了将一组文章分组到“系列”下的功能。将文章放在系列下将在每个页面中显示该系列文章的其余部分，并在它们之间提供快速导航。您可以在上面看到一个例子。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;创建分类 
+    &lt;div id=&#34;%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;启用系列的第一步是创建 &lt;code&gt;series&lt;/code&gt; 分类法。为此，只需将 &lt;code&gt;series&lt;/code&gt; 分类法添加到 &lt;code&gt;config.toml&lt;/code&gt; 中的分类法列表中即可。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;taxonomies&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;tag&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;category&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;categories&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;authors&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;series&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;标记文章 
+    &lt;div id=&#34;%E6%A0%87%E8%AE%B0%E6%96%87%E7%AB%A0&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E6%A0%87%E8%AE%B0%E6%96%87%E7%AB%A0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;然后你只需要添加 &lt;code&gt;series&lt;/code&gt; 和 &lt;code&gt;series_order&lt;/code&gt; 参数。 &lt;code&gt;series&lt;/code&gt; 参数将是您要将文章放入的系列名称。 &lt;code&gt;series_order&lt;/code&gt; 定义了文章在该系列中的顺序。在下面的示例中，文章是 &lt;code&gt;Documentation&lt;/code&gt; 系列中的第 &lt;code&gt;11&lt;/code&gt; 篇文章。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;series: [&amp;#34;Documentation&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;series_order: 11
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;系列的表现形式 
+    &lt;div id=&#34;%E7%B3%BB%E5%88%97%E7%9A%84%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E7%B3%BB%E5%88%97%E7%9A%84%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;将文章标记为系列的一部分将自动显示系列模块，例如您在下方看到的这样。您可以使用 &lt;code&gt;params.toml&lt;/code&gt; 中的 &lt;code&gt;article.seriesOpened&lt;/code&gt; 全局变量或参数 &lt;code&gt;seriesOpened&lt;/code&gt; 来选择该模块是否开始打开，以指定文章级别的覆盖。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/series/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

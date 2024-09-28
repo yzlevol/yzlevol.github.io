@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blowfish Template - GitHub Repo on Blog</title><link>https://yzlevol.github.io/examples/blowfish-template-repo/</link><description>Recent content in Blowfish Template - GitHub Repo on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yzlevol.github.io/examples/blowfish-template-repo/index.xml" rel="self" type="application/rss+xml"/><item><title>Blowfish Template - GitHub Repo</title><link>https://yzlevol.github.io/examples/blowfish-template-repo/_index.it/</link><pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/examples/blowfish-template-repo/_index.it/</guid><description/></item><item><title>Blowfish テンプレート - GitHub レポジトリ</title><link>https://yzlevol.github.io/examples/blowfish-template-repo/_index.ja/</link><pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate><guid>https://yzlevol.github.io/examples/blowfish-template-repo/_index.ja/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blowfish Template - GitHub Repo on Blog</title>
+    <link>http://localhost:1313/examples/blowfish-template-repo/</link>
+    <description>Recent content in Blowfish Template - GitHub Repo on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Hyoung Yan</copyright>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/examples/blowfish-template-repo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blowfish Template - GitHub Repo</title>
+      <link>http://localhost:1313/examples/blowfish-template-repo/_index.it/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish テンプレート - GitHub レポジトリ</title>
+      <link>http://localhost:1313/examples/blowfish-template-repo/_index.ja/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
