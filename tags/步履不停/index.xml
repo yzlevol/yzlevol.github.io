@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>步履不停 on Blog</title>
+    <link>http://localhost:1313/tags/%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C/</link>
+    <description>Recent content in 步履不停 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Hyoung Yan</copyright>
+    <lastBuildDate>Thu, 03 Oct 2024 23:07:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 10 3</title>
+      <link>http://localhost:1313/posts/daily/2024-10-3/</link>
+      <pubDate>Thu, 03 Oct 2024 23:07:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/daily/2024-10-3/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;ONE 
+    &lt;div id=&#34;one&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#one&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;p&gt;二零二四年十月三日，星期四&lt;/p&gt;
+    &lt;p&gt;微风不燥，阳光甚好&lt;/p&gt;
+    &lt;p&gt;记二零二四年国庆&lt;/p&gt;
+    &lt;p&gt;Shanghai :bike: Kunshan&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;TWO 
+    &lt;div id=&#34;two&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#two&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;THREE 
+    &lt;div id=&#34;three&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#three&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/daily/2024-10-3/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
