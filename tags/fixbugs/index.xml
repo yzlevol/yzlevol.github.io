@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fixbugs on Blog</title><link>https://yzlevol.github.io/tags/fixbugs/</link><description>Recent content in Fixbugs on Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Hyoung Yan</copyright><lastBuildDate>Tue, 08 Oct 2024 15:08:57 +0800</lastBuildDate><atom:link href="https://yzlevol.github.io/tags/fixbugs/index.xml" rel="self" type="application/rss+xml"/><item><title>我请问24H2，我的光标在哪里？</title><link>https://yzlevol.github.io/docs/fixbugs/24h2_where_is_my_cusor/</link><pubDate>Tue, 08 Oct 2024 15:08:57 +0800</pubDate><guid>https://yzlevol.github.io/docs/fixbugs/24h2_where_is_my_cusor/</guid><description>&lt;h2 class="relative group">问题描述
+&lt;div id="%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>本着尝鲜的目的，更新了 Windows 11 24H2 版本，24H2 版本添加了些新功能，比方&lt;code>sudo&lt;/code>命令，但是出乎意料又合理之中的是遇到了一些小问题，比方当鼠标聚焦在文本输入框时，光标会消失，鼠标正常移动。
+猜测应该是图标显示的问题，果然网上检索，发现问题根源在于更新后的系统改变了鼠标指针的默认设置，引发了某些应用程序的兼容性问题。
+针对这一问题，微软方面建议用户手动将鼠标指针恢复默认状态。
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" src="image.png" alt="alt text" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">解决方案
+&lt;div id="%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;ol>
+&lt;li>开始面板搜索&lt;code>鼠标&lt;/code>，打开&lt;code>鼠标设置&lt;/code>。&lt;/li>
+&lt;li>在&lt;code>指针选项&lt;/code>中，将&lt;code>指针&lt;/code>选项卡中的&lt;code>指针&lt;/code>下拉菜单选择为&lt;code>Windows 默认&lt;/code>。&lt;/li>
+&lt;li>在&lt;code>自定义区域&lt;/code>中，选中&lt;code>文本选择&lt;/code>，点击&lt;code>浏览&lt;/code>，选中&lt;code>beam_r.cur&lt;/code>，点击&lt;code>打开&lt;/code>。
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/docs/fixbugs/24h2_where_is_my_cusor/pic1_hu13566128018239959113.png 330w,
+/docs/fixbugs/24h2_where_is_my_cusor/pic1_hu4070756609331565330.png 660w,
+/docs/fixbugs/24h2_where_is_my_cusor/pic1_hu1984338006324111102.png 1024w,
+/docs/fixbugs/24h2_where_is_my_cusor/pic1_hu3436751011386791704.png 2x"
+src="https://yzlevol.github.io/docs/fixbugs/24h2_where_is_my_cusor/pic1_hu4070756609331565330.png"
+alt="pic1"
+/>
+&lt;/figure>
+&lt;/li>
+&lt;li>保存退出，即可解决问题。&lt;/li>
+&lt;/ol></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/fixbugs/24h2_where_is_my_cusor/featured.png"/></item><item><title>命令行可执行jar包，但是无法双击运行</title><link>https://yzlevol.github.io/docs/fixbugs/run_the_jar/</link><pubDate>Tue, 08 Oct 2024 14:54:22 +0800</pubDate><guid>https://yzlevol.github.io/docs/fixbugs/run_the_jar/</guid><description>&lt;h2 class="relative group">问题描述
+&lt;div id="%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>运行 jar 包时出错：在命令行中可以运行 jar，但是双击 jar 文件无反应或者闪退
+cmd 命令&lt;/p>
+&lt;h2 class="relative group">解决方案
+&lt;div id="%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;ol>
+&lt;li>首先确定 Java 运行环境已经安装好，包括 JDK 或 JRE。可在命令行输入&lt;code>java -version&lt;/code>查看是否安装成功。&lt;/li>
+&lt;li>如果在命令行中输入&lt;code>java -jar xx.jar&lt;/code>可以运行，则说明是打开方式设置的问题。可右键 jar 文件，选择“打开方式”，选择“Java(TM) Platform SE binary”或浏览找到&lt;code>javaw.exe&lt;/code>。&lt;/li>
+&lt;li>如果双击仍然无反应或闪退，则可 Win+R，键入&lt;code>regedit&lt;/code>代开注册表编辑器，找到&lt;code>HKEY_CLASSES_ROOT\Applications\javaw.exe\shell\open\command&lt;/code>，检查值是否少了&lt;code>-jar&lt;/code>参数（注意无引号）,修改后应为&lt;code>&amp;quot;C:\Program Files\Java\jre1.8.0_281\bin\javaw.exe&amp;quot; -jar &amp;quot;%1&amp;quot;&lt;/code>，保存退出即可解决问题。
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/docs/fixbugs/run_the_jar/image_hu17028887054461973567.png 330w,
+/docs/fixbugs/run_the_jar/image_hu4719476328929391454.png 660w,
+/docs/fixbugs/run_the_jar/image_hu5430444024267477941.png 1024w,
+/docs/fixbugs/run_the_jar/image_hu13660462759863575174.png 2x"
+src="https://yzlevol.github.io/docs/fixbugs/run_the_jar/image_hu4719476328929391454.png"
+alt="regedit"
+/>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yzlevol.github.io/docs/fixbugs/run_the_jar/featured.png"/></item></channel></rss>
