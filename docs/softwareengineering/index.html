@@ -1,0 +1,4797 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=13363&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="zh-cn" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>2024软件工程复习 &middot; Blog</title>
+  <meta name="title" content="2024软件工程复习 &middot; Blog" />
+  
+  <meta name="description" content="A simple blog." />
+  <meta name="keywords" content="软件工程, 复习, " />
+  
+  
+  <link rel="canonical" href="http://localhost:13363/docs/softwareengineering/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.7719e2923ac98a1f6072925bc735ceadc030899ed114bbb86ebf4331501129e3ff710f774d6d60421926c922813dfc164591ce4a7e40a1e4dd407586c4d86ba8.css"
+    integrity="sha512-dxnikjrJih9gcpJbxzXOrcAwiZ7RFLu4br9DMVARKeP/cQ93TW1gQhkmySKBPfwWRZHOSn5AoeTdQHWGxNhrqA==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.8613168837e35f3f882df60a8a810e212d581a4eea26eeb2554e527c6eab9e57acc03a2533cbd5c6084f825ce3a655953923f21e1de2e6b8014eddf510fa58e7.js"
+    integrity="sha512-hhMWiDfjXz&#43;ILfYKioEOIS1YGk7qJu6yVU5SfG6rnleswDolM8vVxghPglzjplWVOSPyHh3i5rgBTt31EPpY5w==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.fcbc7f7b3dcea96e3b5570cd322c5d7a12d5351c87f9889b1c31745a2cc711df58f6b70795a86d50e63813b236ade916668332c10a70a4ce26f7c0878f525fce.js" integrity="sha512-/Lx/ez3OqW47VXDNMixdehLVNRyH&#43;YibHDF0WizHEd9Y9rcHlahtUOY4E7I2rekWZoMywQpwpM4m98CHj1Jfzg=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:13363/docs/softwareengineering/">
+  <meta property="og:site_name" content="Blog">
+  <meta property="og:title" content="2024软件工程复习">
+  <meta property="og:description" content="2024 软件工程复习 #Tongji University. 2024/12/21 Hyoung Yan
+本文框架 #">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2024-12-21T20:05:46+08:00">
+    <meta property="article:modified_time" content="2024-12-21T20:05:46+08:00">
+    <meta property="article:tag" content="软件工程">
+    <meta property="article:tag" content="复习">
+    <meta property="og:image" content="http://localhost:13363/docs/softwareengineering/featured.jpeg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:13363/docs/softwareengineering/featured.jpeg">
+  <meta name="twitter:title" content="2024软件工程复习">
+  <meta name="twitter:description" content="2024 软件工程复习 #Tongji University. 2024/12/21 Hyoung Yan
+本文框架 #">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "文档",
+    "name": "2024软件工程复习",
+    "headline": "2024软件工程复习",
+    
+    "abstract": "\u003ch1 class=\u0022relative group\u0022\u003e2024 软件工程复习 \r\n    \u003cdiv id=\u00222024-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\r\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\r\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#2024-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0\u0022 aria-label=\u0022锚点\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e        \r\n    \r\n\u003c\/h1\u003e\r\n\u003cblockquote\u003e\n\u003cp\u003eTongji University. 2024\/12\/21 \u003cbr\u003e\nHyoung Yan\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003chr\u003e\n\r\n\r\n\u003ch2 class=\u0022relative group\u0022\u003e本文框架 \r\n    \u003cdiv id=\u0022%E6%9C%AC%E6%96%87%E6%A1%86%E6%9E%B6\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\r\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\r\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#%E6%9C%AC%E6%96%87%E6%A1%86%E6%9E%B6\u0022 aria-label=\u0022锚点\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e        \r\n    \r\n\u003c\/h2\u003e\r\n\u003cp\u003e\r\n    \u003cfigure\u003e\r\n      \u003cimg class=\u0022my-0 rounded-md\u0022 loading=\u0022lazy\u0022 src=\u00222024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E6%A1%86%E6%9E%B6.png\u0022 alt=\u0022本文框架\u0022 \/\u003e\r\n      \r\n    \u003c\/figure\u003e\r\n\u003c\/p\u003e",
+    "inLanguage": "zh-cn",
+    "url" : "http:\/\/localhost:13363\/docs\/softwareengineering\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Hyoung Yan"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-12-21T20:05:46\u002b08:00",
+    "datePublished": "2024-12-21T20:05:46\u002b08:00",
+    
+    "dateModified": "2024-12-21T20:05:46\u002b08:00",
+    
+    "keywords": ["软件工程","复习"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "15359"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="Hyoung Yan" />
+  
+  
+  
+  <link href="https://github.com/yzlevol/" rel="me" />
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.b6af89fb858eebf3a2f76dc5e96fec34b1ea60df75a463322f39a5e8386328f85a735a1393786ff33160aa709a25cb5d697b8b2fa554cf082d274e94655e0732.css" integrity="sha512-tq&#43;J&#43;4WO6/Oi923F6W/sNLHqYN91pGMyLzml6DhjKPhac1oTk3hv8zFgqnCaJctdaXuLL6VUzwgtJ06UZV4HMg==" />
+
+
+<script defer src="/lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyC2QtnNcwjWp_givX90bPrhi4d1qD7CmNk",
+      authDomain: "AIzaSyC2QtnNcwjWp_givX90bPrhi4d1qD7CmNk",
+      projectId: "yzlevol-blog",
+      storageBucket: "yzlevol-blog.appspot.com",
+      messagingSenderId: "470650854099",
+      appId: "1:470650854099:web:da89bf5240e1dee9d7d226",
+      measurementId: "G-W5W0HTZVH2"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>跳过正文</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">Blog</span>
+
+            
+            <img src="/img/MyImgs/180x180.png" width="65" height="65"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="Blog" />
+            
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blog</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        文档
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        帖子
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/tabs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        导航
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        标签
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="https://github.com/yzlevol/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            文档
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            帖子
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/tabs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            导航
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            标签
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://github.com/yzlevol/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/docs/softwareengineering/featured_hu15064086737709076146.jpeg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >.</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/docs/"
+      >文档</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/docs/softwareengineering/"
+      >2024软件工程复习</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      2024软件工程复习
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-12-21T20:05:46&#43;08:00">2024-12-21</time><span class="px-2 text-primary-500">&middot;</span><span>15359 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">31 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_docs\SoftwareEngineering\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+    
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/yzlevol/yzlsBlog/tree/main/content/docs/SoftwareEngineering/index.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="编辑内容"
+    ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"/></svg>
+  </span>
+
+</span></a
+  >
+</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title=""
+          data-title-i18n-disable=""
+          data-title-i18n-enable="">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+  <span class="pl-2"><span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    草稿
+  </span>
+</span></span>
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    软件工程
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%A4%8D%E4%B9%A0/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    复习
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+
+      
+
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#本文框架">本文框架</a></li>
+    <li><a href="#chapter-1-软件工程概述">Chapter 1: 软件工程概述</a>
+      <ul>
+        <li><a href="#背景知识">背景知识</a></li>
+        <li><a href="#软件工程概述">软件工程概述</a></li>
+        <li><a href="#软件过程模型">软件过程模型</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-2-需求获取技术">Chapter 2: 需求获取技术</a>
+      <ul>
+        <li><a href="#软件需求">软件需求</a></li>
+        <li><a href="#需求抽取">需求抽取</a></li>
+        <li><a href="#需求分析">需求分析</a></li>
+        <li><a href="#需求规约">需求规约</a></li>
+        <li><a href="#需求管理">需求管理</a></li>
+        <li><a href="#需求验证">需求验证</a></li>
+        <li><a href="#需求获取的内容">需求获取的内容</a></li>
+        <li><a href="#数据流图-dfd">数据流图 DFD</a></li>
+        <li><a href="#数据字典-dd">数据字典 DD</a></li>
+        <li><a href="#实体关系图-e-r">实体关系图 E-R</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-3-uml-与用例建模">Chapter 3: UML 与用例建模</a>
+      <ul>
+        <li><a href="#uml-基础">UML 基础</a></li>
+        <li><a href="#4-个重要的-uml-图">4 个重要的 UML 图</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-4-软件需求分析">Chapter 4 软件需求分析</a>
+      <ul>
+        <li><a href="#uml-分析模型">UML 分析模型</a></li>
+        <li><a href="#需求规范requirements-specification">需求规范（Requirements Specification）</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-5-总体设计">Chapter 5 总体设计</a>
+      <ul>
+        <li><a href="#总体设计基础概念">总体设计基础概念</a></li>
+        <li><a href="#总体设计的原则">总体设计的原则</a>
+          <ul>
+            <li><a href="#模块化原理">模块化原理</a></li>
+            <li><a href="#模块独立性度量">模块独立性度量</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#chapter-6-详细设计">Chapter 6 详细设计</a>
+      <ul>
+        <li><a href="#详细设计初认识">详细设计初认识</a></li>
+        <li><a href="#软件复用reuse">软件复用（Reuse）</a></li>
+        <li><a href="#详细设计的描述">详细设计的描述</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-7-编码或实现">Chapter 7 编码或实现</a></li>
+    <li><a href="#chapter-8-软件测试">Chapter 8 软件测试</a>
+      <ul>
+        <li><a href="#软件测试基本概念">软件测试基本概念</a></li>
+        <li><a href="#软件测试的两个方法">软件测试的两个方法</a>
+          <ul>
+            <li><a href="#静态测试-static-test">静态测试 Static Test</a></li>
+            <li><a href="#动态测试-dynamic-test">动态测试 Dynamic Test</a></li>
+            <li><a href="#软件测试的过程">软件测试的过程</a></li>
+          </ul>
+        </li>
+        <li><a href="#停止测试条件">停止测试条件</a></li>
+        <li><a href="#可靠性分析">可靠性分析</a></li>
+        <li><a href="#调试">调试</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-9-软件维护">Chapter 9 软件维护</a>
+      <ul>
+        <li><a href="#软件维护的概念">软件维护的概念</a></li>
+        <li><a href="#软件维护的类型">软件维护的类型</a></li>
+        <li><a href="#可维护性maintainability">可维护性（Maintainability）</a></li>
+        <li><a href="#再工程re-engineering">再工程（Re-engineering）</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-10-软件项目管理">Chapter 10 软件项目管理</a>
+      <ul>
+        <li><a href="#软件项目管理的基本概念">软件项目管理的基本概念</a></li>
+        <li><a href="#团队分工">团队分工</a></li>
+        <li><a href="#相关概念">相关概念</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#本文框架">本文框架</a></li>
+    <li><a href="#chapter-1-软件工程概述">Chapter 1: 软件工程概述</a>
+      <ul>
+        <li><a href="#背景知识">背景知识</a></li>
+        <li><a href="#软件工程概述">软件工程概述</a></li>
+        <li><a href="#软件过程模型">软件过程模型</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-2-需求获取技术">Chapter 2: 需求获取技术</a>
+      <ul>
+        <li><a href="#软件需求">软件需求</a></li>
+        <li><a href="#需求抽取">需求抽取</a></li>
+        <li><a href="#需求分析">需求分析</a></li>
+        <li><a href="#需求规约">需求规约</a></li>
+        <li><a href="#需求管理">需求管理</a></li>
+        <li><a href="#需求验证">需求验证</a></li>
+        <li><a href="#需求获取的内容">需求获取的内容</a></li>
+        <li><a href="#数据流图-dfd">数据流图 DFD</a></li>
+        <li><a href="#数据字典-dd">数据字典 DD</a></li>
+        <li><a href="#实体关系图-e-r">实体关系图 E-R</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-3-uml-与用例建模">Chapter 3: UML 与用例建模</a>
+      <ul>
+        <li><a href="#uml-基础">UML 基础</a></li>
+        <li><a href="#4-个重要的-uml-图">4 个重要的 UML 图</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-4-软件需求分析">Chapter 4 软件需求分析</a>
+      <ul>
+        <li><a href="#uml-分析模型">UML 分析模型</a></li>
+        <li><a href="#需求规范requirements-specification">需求规范（Requirements Specification）</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-5-总体设计">Chapter 5 总体设计</a>
+      <ul>
+        <li><a href="#总体设计基础概念">总体设计基础概念</a></li>
+        <li><a href="#总体设计的原则">总体设计的原则</a>
+          <ul>
+            <li><a href="#模块化原理">模块化原理</a></li>
+            <li><a href="#模块独立性度量">模块独立性度量</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#chapter-6-详细设计">Chapter 6 详细设计</a>
+      <ul>
+        <li><a href="#详细设计初认识">详细设计初认识</a></li>
+        <li><a href="#软件复用reuse">软件复用（Reuse）</a></li>
+        <li><a href="#详细设计的描述">详细设计的描述</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-7-编码或实现">Chapter 7 编码或实现</a></li>
+    <li><a href="#chapter-8-软件测试">Chapter 8 软件测试</a>
+      <ul>
+        <li><a href="#软件测试基本概念">软件测试基本概念</a></li>
+        <li><a href="#软件测试的两个方法">软件测试的两个方法</a>
+          <ul>
+            <li><a href="#静态测试-static-test">静态测试 Static Test</a></li>
+            <li><a href="#动态测试-dynamic-test">动态测试 Dynamic Test</a></li>
+            <li><a href="#软件测试的过程">软件测试的过程</a></li>
+          </ul>
+        </li>
+        <li><a href="#停止测试条件">停止测试条件</a></li>
+        <li><a href="#可靠性分析">可靠性分析</a></li>
+        <li><a href="#调试">调试</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-9-软件维护">Chapter 9 软件维护</a>
+      <ul>
+        <li><a href="#软件维护的概念">软件维护的概念</a></li>
+        <li><a href="#软件维护的类型">软件维护的类型</a></li>
+        <li><a href="#可维护性maintainability">可维护性（Maintainability）</a></li>
+        <li><a href="#再工程re-engineering">再工程（Re-engineering）</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-10-软件项目管理">Chapter 10 软件项目管理</a>
+      <ul>
+        <li><a href="#软件项目管理的基本概念">软件项目管理的基本概念</a></li>
+        <li><a href="#团队分工">团队分工</a></li>
+        <li><a href="#相关概念">相关概念</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+
+
+<h1 class="relative group">2024 软件工程复习 
+    <div id="2024-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2024-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+<blockquote>
+<p>Tongji University. 2024/12/21 <br>
+Hyoung Yan</p>
+</blockquote>
+<hr>
+
+
+<h2 class="relative group">本文框架 
+    <div id="%E6%9C%AC%E6%96%87%E6%A1%86%E6%9E%B6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%9C%AC%E6%96%87%E6%A1%86%E6%9E%B6" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E6%A1%86%E6%9E%B6.png" alt="本文框架" />
+      
+    </figure>
+</p>
+<hr>
+
+
+<h2 class="relative group">Chapter 1: 软件工程概述 
+    <div id="chapter-1-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A6%82%E8%BF%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-1-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A6%82%E8%BF%B0" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">背景知识 
+    <div id="%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>软件是计算机系统中与硬件相互依存的另一部分，它是包括程序、数据及其相关文档组成的完整集合。
+软件是一种逻辑实体，具有抽象性。软件具有 <strong>复杂度、一致性、可变性和无不可见性</strong> 等固有的内在特性，这是造成软件开发困难的根本原因。</p>
+<ul>
+<li>软件 = 程序+数据+文档</li>
+<li>程序：程序是按照事先设计好的功能和性能要求执行的指令序列</li>
+<li>数据：数据是指程序等正常处理信息的数据和数据结构</li>
+<li>文档：文档是与软件开发、设计、运行、维护有关的图文资料</li>
+</ul>
+</li>
+<li>
+<p>软件分类
+可按照用途分类，也可根据软件的规模、软件的工作方式、使用频度、失效后的影响等进行分类。</p>
+<ul>
+<li>系统软件：系统软件是为其他软件服务的软件</li>
+<li>实时软件：管理、分析、控制现实世界所发生的事件的软件</li>
+<li>商业管理软件：商业信息处理是最大的软件应用领域，各类管理信息系统(MIS)、企业资源计划(ERP)、客户关系管理(CRM)等都是典型的商业管理软件</li>
+<li>工程与科学计算软件：此类软件的特征是要实现特定的“数值分析”算法</li>
+<li>嵌入式软件：嵌入式软件是指嵌入在各种电子设备中的软件，完成很有限、很专业的功能的软件</li>
+<li>人工智能软件：利用非数值算法去解决复杂问题的软件。各类专家系统、模式识别软件、人工神经网络软件都属于人工智能软件。</li>
+<li>个人计算机软件：文字处理系统、电子表格、游戏娱乐软件等
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734694012974.png" alt="1734694012974" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p>软件危机：是指在计算机软件的开发和维护过程中所遇到的一系列严重问题</p>
+<ul>
+<li>其一，如何开发软件，以满足不断增长、日趋复杂的需求</li>
+<li>其二，如何维护数量不断膨胀的软件产品</li>
+</ul>
+</li>
+<li>
+<p>软件开发问题的解决途径
+1968 年北大西洋公约组织（NATO）召开国际会议，提出“软件工程”概念和术语。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734694799701.png" alt="1734694799701" />
+      
+    </figure>
+</p>
+</li>
+</ol>
+
+
+<h3 class="relative group">软件工程概述 
+    <div id="%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A6%82%E8%BF%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%A6%82%E8%BF%B0" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>系统的特征</p>
+<ul>
+<li>系统是相互联系的一组元素的集合</li>
+<li>系统是具有特点功能的有机整体</li>
+<li>系统是有边界的</li>
+<li>系统需要和其他系统交互</li>
+<li>一个系统可能包含另一个系统</li>
+<li>系统是逐渐演变形成的</li>
+</ul>
+</li>
+<li>
+<p>工程的概念
+<strong>工程的方法：</strong> 工程是将理论与所学的知识应用于实践的科学，以便经济有效地解决实际问题。</p>
+<p><strong>工程的特征：</strong></p>
+<ul>
+<li>注重系统的构建过程</li>
+<li>平衡与决策</li>
+<li>度量与验证</li>
+<li>训练有素的过程</li>
+<li>团队协作与角色分工</li>
+<li>系统地运用工具</li>
+<li>工程原则、标准和实践</li>
+<li>重用设计和设计制品</li>
+</ul>
+</li>
+<li>
+<p>什么是软件工程？
+软件工程是：</p>
+<ol>
+<li>将系统性的、规范化的、可定量的方法应用于软件的开发、运行和维护，即工程化应用到软件上</li>
+<li>对 1 中所述方法的研究</li>
+</ol>
+</li>
+<li>
+<p>软件工程的基本目标</p>
+<ul>
+<li>较低的开发成本</li>
+<li>按时完成开发任务并及时交付</li>
+<li>实现客户要求的功能</li>
+<li>所开发软件具有良好的性能</li>
+<li>较高的可靠性、可扩展性、可移植性</li>
+<li>软件维护费用低</li>
+</ul>
+</li>
+<li>
+<p>软件质量属性</p>
+<p><strong>什么是好的软件？</strong> 功能质量、结构质量、过程质量
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734695492056.png" alt="1734695492056" />
+      
+    </figure>
+</p>
+<ul>
+<li>McCall 质量模型
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734695585402.png" alt="1734695585402" />
+      
+    </figure>
+</li>
+<li>ISO9126 质量模型
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734695627386.png" alt="1734695627386" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">软件过程模型 
+    <div id="%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E6%A8%A1%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>软件开发活动</p>
+<ul>
+<li>问题定义：人们通过开展技术探索和市场调查等活动，研究系统的可行性和可能解决方案，确定待开发系统的总体目标和范围
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734695951212.png" alt="1734695951212" />
+      
+    </figure>
+</li>
+<li>需求开发：在可行性研究之后，分析、整理和提炼所收集到的客户需求，建立完整的需求分析模型，编写软件需求规格说明
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696012433.png" alt="1734696012433" />
+      
+    </figure>
+</li>
+<li>软件设计：根据需求规格说明，确定软件体系结构，进一步设计每个系统部件的实现算法、数据结构及其接口等
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696073229.png" alt="1734696073229" />
+      
+    </figure>
+</li>
+<li>软件实现：概括说是将软件设计转换为程序代码，是一个复杂且迭代的过程，要求根据设计模型进行程序设计以及正确高效地编写和测试代码
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696151611.png" alt="1734696151611" />
+      
+    </figure>
+</li>
+<li>软件测试：检查和验证所开发的系统是否符合用户期望，包括单元测试、子系统测试、集成测试和验收测试等
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696218565.png" alt="1734696218565" />
+      
+    </figure>
+</li>
+<li>软件演化：系统投入使用后对其进行改进，以适应不断变化的需求，将系统的开发和维护看作一个连续的过程更有意义。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696351172.png" alt="1734696351172" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p>瀑布模型：瀑布模型的开发阶段严格按照线性方式进行，每一个阶段具有相关的里程碑和交付产品，且需要确认和验收。</p>
+<ul>
+<li>需求定义与分析</li>
+<li>软件设计</li>
+<li>软件实现</li>
+<li>软件测试</li>
+<li>软件运行与维护
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696425834.png" alt="1734696425834" />
+      
+    </figure>
+</li>
+</ul>
+<p><strong>讨论：</strong> 瀑布模型是否反映了实际的软件开发过程？软件开发作为一个问题求解过程，应当具备什么特点？</p>
+<p>瀑布模型源于硬件领域，它从制造业的角度来审视软件开发。制造业是通过批量生产某一特定产品来实现的，而软件开发则不同。随着人们对问题的深入理解以及对可选方案的不断评估，软件在开发过程中不断演化。因此，软件开发更像是一个创造性的过程，而非单纯的生产过程。</p>
+</li>
+<li>
+<p>软件开发具有 <strong>迭代性</strong>，需要不断地反复尝试，通过比较和选择不同的设计，最终确定令人满意的问题解决方案</p>
+</li>
+<li>
+<p>原型化模型：原型化模型需要 <strong>迅速建造</strong> 一个可运行的软件原型，它使用户和开发人员对系统的相关方面进行检查，以决定是否合适和恰当
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696848799.png" alt="1734696848799" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p>需求原型化</p>
+<ul>
+<li>纸上原型</li>
+<li>产品原型设计软件</li>
+</ul>
+</li>
+<li>
+<p>阶段化开发：今天的商业环境需要快速地推出新产品，阶段化开发使得软件系统能够一部分一部分地交付，从而缩短软件开发周期。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734696940623.png" alt="1734696940623" />
+      
+    </figure>
+</p>
+<ul>
+<li><strong>增量模型</strong>：在每一个新的发布中逐步增加功能直到构造全部功能</li>
+<li><strong>迭代模型</strong>：一开始提交一个完整系统，在后续发布中补充完善各子系统功能
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734697029850.png" alt="1734697029850" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p>可转换模型：可转换模型师采用 <strong>形式化的数学方法</strong> 描述系统，并利用一系列转换将形式化的需求规格说明变为可交付使用的系统
+<strong>数学方法具有严密性和准确性，形式化方法所交付的系统具有较少的缺陷和较高的安全性</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734697101253.png" alt="1734697101253" />
+      
+    </figure>
+
+<code>网络公开课程：适用于增量模型或迭代模型</code>
+<code>汽车防抱死系统：适用于可转换模型（形式化方法）</code></p>
+</li>
+</ol>
+<hr>
+
+
+<h2 class="relative group">Chapter 2: 需求获取技术 
+    <div id="chapter-2-%E9%9C%80%E6%B1%82%E8%8E%B7%E5%8F%96%E6%8A%80%E6%9C%AF" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-2-%E9%9C%80%E6%B1%82%E8%8E%B7%E5%8F%96%E6%8A%80%E6%9C%AF" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">软件需求 
+    <div id="%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>软件需求：是指利益相关方队目标软件系统的要求和期望，细分为：</p>
+<ul>
+<li>功能需求：描述系统应该具有的功能（控制 ⽉ 球 ⻋ 移动并到达指定地点）</li>
+<li>性能需求：描述系统应该具有的性能（MCS 必须在 1 秒内完成最优路径规划）</li>
+<li>可靠性需求：描述系统应该具有的可靠性（MCS 平均 ⽆ 故障 ⼯ 作时间必须 ⼤ 于 24 ⼩ 时）</li>
+<li>约束性需求：描述系统应该满足的约束条件（MCS 必须在 10 个 ⽉ 内通过验收测试）</li>
+</ul>
+<p><strong>软件需求是整个软件项目的终极目标，也是后续软件开发活动的主要基础</strong></p>
+</li>
+<li>
+<p>需求工程活动</p>
+<ul>
+<li>需求抽取（Elitication）：通过与用户交流，了解用户需求</li>
+<li>需求分析（Analysis）：对需求进行分析，确定需求的优先级</li>
+<li>需求规约（Specification）：将需求规约为文档</li>
+<li>需求管理（Management）：管理需求变更</li>
+<li>需求验证（Validation）：验证需求是否满足用户需求
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734697792979.png" alt="1734697792979" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">需求抽取 
+    <div id="%E9%9C%80%E6%B1%82%E6%8A%BD%E5%8F%96" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E6%8A%BD%E5%8F%96" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>需求抽取的目标、实质和关键</p>
+<ul>
+<li><strong>需求抽取的目标</strong> 是主动与干系人协同工作，找出他们的需求，设别潜在的冲突，磋商解决矛盾，定义系统范围与边界</li>
+<li><strong>需求抽取的实质</strong> 是了解待解决问题及其所属领域；</li>
+<li><strong>需求抽取的关键</strong> 是确保问题的解决是有 <strong>商业价值</strong> 的</li>
+</ul>
+</li>
+<li>
+<p>需求抽取技术</p>
+<ul>
+<li>抽取技术：协同工作、面谈、问卷调查、观察法、原型法、文档分析、建模、角色扮演、非功能性需求列表</li>
+<li>冲突是被与磋商</li>
+</ul>
+</li>
+<li>
+<p>需求抽取的出发点</p>
+<ul>
+<li>确定干系人：需要强调与客户的联络关系，系统的设计与谁的利益息息相关</li>
+<li>定义边界：界定问题的范围，确定系统的边界</li>
+<li>定义目标和情景实例：目标和情景实例是组织原始需求信息的有效手段</li>
+<li>分析可行性：如何进行可行性研究，如何选择好的项目</li>
+<li>分析风险：风险管理应长期、持续进行，而非阶段性、一次性的任务；进行灾难和事故分析以确定风险
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734698914500.png" alt="1734698914500" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p>Stakeholders：干系人是指与软件系统有关的所有人员，包括用户、开发人员、管理人员、维护人员、软件工程师等。让利益相关者参与个人或团体需求会议以定义系统详细信息
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734699316060.png" alt="1734699316060" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p>访谈技巧，启发式问题：</p>
+<ul>
+<li>访谈：同一时间，同一地点。Few People, Analyst-Driven
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734699764251.png" alt="1734699764251" />
+      
+    </figure>
+</li>
+<li>调查文卷：不同时间，不同地点。Many People, Analyst-Observer
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734699872379.png" alt="1734699872379" />
+      
+    </figure>
+</li>
+<li>小组讨论：相同时间，相同或不同地点，&lt; 20 人，Analyst-Facilitated
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734699919470.png" alt="1734699919470" />
+      
+    </figure>
+</li>
+<li>观察：同一时间，同一地点，Analyst-Observer
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734700042812.png" alt="1734700042812" />
+      
+    </figure>
+</li>
+<li>原型、模型、大纲：澄清模糊或不确定的需求；简化需求文档和接受需求，向客户和最终用户提供早期反馈（<strong>A picture says a thousand words.</strong>）
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734700324738.png" alt="1734700324738" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p>Prepare for Change</p>
+<ul>
+<li>This is an “attitude”</li>
+<li>The more stakeholders are involved, the more features they will want • Don’t solve this “problem” by eliminating stakeholders</li>
+<li>Stakeholders have the right to change their minds • Don’t Ever Ask: “Ok, Is that Your Final Requirement?”</li>
+<li>See suggested changes as opportunities, not threats</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">需求分析 
+    <div id="%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p><strong>需求分析的目标、实质和关键</strong></p>
+<ul>
+<li>目标：对产品及其环境的交互进行更深入的了解，识别系统需求，设计软件体系结构，建立需求与体系结构部件之间的关联，在体系结构设计实现过程中进一步识别矛盾冲突，并通过干系人之间的协调磋商解决问题</li>
+<li>实质：概念建模，选择常用的建模语言，进行功能建模和信息建模</li>
+<li>关键：体系结构设计与需求分配
+通过评估需求的满足度来评价体系结构设计的质量</li>
+</ul>
+
+
+<h3 class="relative group">需求规约 
+    <div id="%E9%9C%80%E6%B1%82%E8%A7%84%E7%BA%A6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E8%A7%84%E7%BA%A6" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>需求规约是系统和软件需求的文档化，以便于后续的需求及系统正式评审而准备的规范化文档</p>
+<ul>
+<li>单个需求项的质量：准确、正确、明确、可行、可证</li>
+<li>整个需求集合的质量：现实、精确、全面、一致</li>
+</ul>
+
+
+<h3 class="relative group">需求管理 
+    <div id="%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>需求管理是贯穿从需求获取到软件系统下线的全过程。需求管理设计软件配置管理、需求跟踪、影响分析和版本控制。</p>
+<ul>
+<li>需求跟踪：描述和追踪一条需求的来龙去脉的能力，包括向前追踪到软件制品，向后追踪到需求来源。</li>
+<li>变更请求管理：系统化的变更管理</li>
+<li>需求属性管理</li>
+</ul>
+
+
+<h3 class="relative group">需求验证 
+    <div id="%E9%9C%80%E6%B1%82%E9%AA%8C%E8%AF%81" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E9%AA%8C%E8%AF%81" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>对其他需求工程活动的质量的保证。通过数学的形式化工具或工程化的测试过程来确保系统满足干系人的要求。 验证方法：评审、原型化、模型验证、确认测试</p>
+<p><strong>需求种类</strong></p>
+<ul>
+<li>
+<p>用户需求，客户需求，业务需求</p>
+</li>
+<li>
+<p>软件需求，系统需求</p>
+<ul>
+<li>功能需求：<code>As an actor(object), do what, so that (goal)</code></li>
+<li>非功能需求
+<ul>
+<li>质量需求：安全性、可靠性、稳定性、可用性、可维护性、可移植性、可扩展性、兼容性</li>
+<li>约束需求：预算、时间、技术等</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h3 class="relative group">需求获取的内容 
+    <div id="%E9%9C%80%E6%B1%82%E8%8E%B7%E5%8F%96%E7%9A%84%E5%86%85%E5%AE%B9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E8%8E%B7%E5%8F%96%E7%9A%84%E5%86%85%E5%AE%B9" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong>功能需求</strong>：系统做什么，系统何时做什么，系统何时及如何修改或升级</li>
+<li><strong>性能需求</strong>：软件开发的技术性指标，规模大小、存储容量、可靠性、安全性</li>
+<li><strong>环境需求</strong>：硬件设备、软件设备</li>
+<li><strong>界面需求</strong>：来自其他系统的输入、输出到其他系统、数据格式、数据存储介质</li>
+<li><strong>接口需求</strong>：软件与其他软件或硬件的接口</li>
+<li><strong>用户或人的因素</strong>：用户需求、用户熟练程度、需何种培训</li>
+<li><strong>文档需求</strong>：用户手册、技术手册、培训手册</li>
+<li><strong>数据需求</strong>：数据的输入、输出、存储、数据流量</li>
+<li><strong>资源需求</strong>：人员、时间、预算、硬件、软件</li>
+<li><strong>安全需求</strong></li>
+<li><strong>软件成本消耗与开发进度</strong></li>
+<li><strong>质量保证</strong></li>
+</ul>
+
+
+<h3 class="relative group">数据流图 DFD 
+    <div id="%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE-dfd" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE-dfd" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734702378451.png" alt="1734702378451" />
+      
+    </figure>
+
+软件需求分析建模方法：</p>
+<ul>
+<li>结构化分析（传统建模方法）：数据流图、数据字典、实体关系图</li>
+<li>面向对象分析：对象模型、功能模型、动态模型</li>
+</ul>
+<p>数据流图（DFD，Data Flow Diagram）是一种描述系统功能的图形化工具，图中没有任何具体的物理元素，只是描绘信息在系统中的流动和处理情况。就图本身而言，并不是只有程序员，或计算机专业技术人员能够读懂，特别是需求方（客户，用户）也能读懂。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734702523157.png" alt="1734702523157" />
+      
+    </figure>
+</p>
+<ol>
+<li>
+<p><strong>DFD 的基本元素</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734702643122.png" alt="1734702643122" />
+      
+    </figure>
+</p>
+<ul>
+<li>External Entity：外部实体，系统的输入输出来源，Source/Sink</li>
+<li>Processing：处理，对数据进行处理的过程，至少有一个输入和一个输出</li>
+<li>Data Flow：数据流，数据在处理过程中的流动</li>
+<li>Data Stores：数据存储，数据的存储位置</li>
+<li>Describing letter：描述符号，用于描述数据流的内容</li>
+</ul>
+</li>
+<li>
+<p><strong>DFD 的基本规则</strong></p>
+<ul>
+<li>流程的输入始终和输出不同</li>
+<li>对象始终有唯一的命名</li>
+<li>处理至少有一个输入和一个输出</li>
+<li>数据无法直接从一个存储移至另一个存储</li>
+<li>数据无法直接从外部源移动到数据存储</li>
+<li>数据无法直接从数据存储移动到数据接收器</li>
+<li>数据存储具有名词短语标签</li>
+<li>数据无法直接从源移动到接收点</li>
+<li>数据流在符号之间只有一个流动方向</li>
+<li>数据流到数据存储意味着更新</li>
+<li>来自数据存储的数据流意味着检索或使用</li>
+<li>分叉意味着完全相同的数据从公共位置传输到两个或多个进程、数据存储或源/接收器</li>
+<li>连接意味着完全相同的数据来自任何两个或更多不同的流程、数据存储或源/接收器到公共位置</li>
+</ul>
+</li>
+<li>
+<p><strong>DFD 分层</strong>
+DFD 可以分为多个层次，每个层次都有不同的细节级别。最高层次的 DFD 称为 0 级 DFD，它是系统的总体概述。0 级 DFD 描述了系统的整体功能，而 1 级 DFD 描述了 0 级 DFD 中的每个功能的详细信息。1 级 DFD 可以进一步分解为 2 级、3 级 DFD 等。</p>
+</li>
+<li>
+<p><strong>DFD 缺点</strong>：无法给出精确详细的定义，不能使用 DFDs 模拟系统</p>
+</li>
+</ol>
+
+
+<h3 class="relative group">数据字典 DD 
+    <div id="%E6%95%B0%E6%8D%AE%E5%AD%97%E5%85%B8-dd" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%95%B0%E6%8D%AE%E5%AD%97%E5%85%B8-dd" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>数据字典 DD 是对所有与系统相关的数据元素的一个有组织的列表, 以及精确的、严格的定义，使得用户和系统分析员对于输入、输出、存储成分和中间计算结果等有共同的理解。</p>
+<p><strong>定义式中使用的符号</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">操作符</th>
+          <th style="text-align: left">含义描述</th>
+          <th style="text-align: left">举例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left">被定义为</td>
+          <td style="text-align: left">x = “a”</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">+</td>
+          <td style="text-align: left">与（顺序结构）</td>
+          <td style="text-align: left">x = a + b</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">{&hellip;}</td>
+          <td style="text-align: left">重复（循环结构）</td>
+          <td style="text-align: left">x = {a}，x = 3{a}8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">[&hellip;|&hellip;]</td>
+          <td style="text-align: left">或（选择结构）</td>
+          <td style="text-align: left">x = [a, b]，x = [a|b]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">[&hellip;,&hellip;]</td>
+          <td style="text-align: left">或（选择结构）</td>
+          <td style="text-align: left">x = [a, b]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">(&hellip;)</td>
+          <td style="text-align: left">可选</td>
+          <td style="text-align: left">x = (a)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">“&hellip;”</td>
+          <td style="text-align: left">基本数据元素</td>
+          <td style="text-align: left">x = “a”</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">..</td>
+          <td style="text-align: left">连结符</td>
+          <td style="text-align: left">x = 1..9</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">*&hellip;*</td>
+          <td style="text-align: left">注释符</td>
+          <td style="text-align: left"><em>这是注释内容</em></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">m..n</td>
+          <td style="text-align: left">界域</td>
+          <td style="text-align: left">x = 3..8</td>
+      </tr>
+  </tbody>
+</table>
+<p><code>x = {a}</code>: a 重复 0 次或多次</p>
+<p><code>x = 3{a}8</code>: a 重复 3 次到 8 次</p>
+
+
+<h3 class="relative group">实体关系图 E-R 
+    <div id="%E5%AE%9E%E4%BD%93%E5%85%B3%E7%B3%BB%E5%9B%BE-e-r" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%AE%9E%E4%BD%93%E5%85%B3%E7%B3%BB%E5%9B%BE-e-r" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>实体关系图 E-R 是一种用于描述系统中数据的结构化方法，它描述了系统中的实体、实体之间的关系和实体的属性。可用于描述数据流图中“数据存贮”及其之间的关系，它是数据库概念设计的最常用的工具。</p>
+<p>ERD 的符号：</p>
+<ul>
+<li>
+<p>实体用长方形表示</p>
+</li>
+<li>
+<p>实体的属性用椭圆形表示</p>
+</li>
+<li>
+<p>联系用菱形框表示</p>
+</li>
+<li>
+<p>用无向边把实体与其属性连接起来</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734704273274.png" alt="1734704273274" />
+      
+    </figure>
+</p>
+</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">Chapter 3: UML 与用例建模 
+    <div id="chapter-3-uml-%E4%B8%8E%E7%94%A8%E4%BE%8B%E5%BB%BA%E6%A8%A1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-3-uml-%E4%B8%8E%E7%94%A8%E4%BE%8B%E5%BB%BA%E6%A8%A1" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>面向对象分析模型：</p>
+<ul>
+<li>用例图 Use Case Diagram</li>
+<li>类图和对象图 Class Diagram and Object Diagram</li>
+<li>行为图 Behavior Diagram</li>
+</ul>
+<ol>
+<li>面向对象：封装、继承、复用、对象</li>
+<li>对象-类</li>
+</ol>
+<ul>
+<li>类是描述和抽象; 对象是具体和实例化（instance）</li>
+<li>类是对象定义，描述，设计时的称呼。</li>
+<li>对象是类使用，调用，实例化时的称呼。类对应的程序运行使用的称呼</li>
+</ul>
+<ol start="3">
+<li>软件开发中为什么要使用面向对象方法？</li>
+</ol>
+<ul>
+<li>自然，接近现实</li>
+<li>方便建模</li>
+<li>模块化</li>
+<li>封装与信息隐藏</li>
+<li>继承复用</li>
+<li>扩展修改维护容易</li>
+</ul>
+<ol start="4">
+<li>面向对象分析方法与结构化分析方法有哪些相似之处？有何区别？</li>
+</ol>
+<ul>
+<li>面向结构的方法是过程的集合，面向对象的方法是实体的集合</li>
+<li>传统方法数据与过程分离，对象方法数据和处理数据的方法封装成一个单元</li>
+<li>SOA 方法面向功能，OOP 方法面向对象，并确定实体间的关系，但两种方法并不排斥</li>
+</ul>
+<ol start="5">
+<li>
+<p>面向对象方法是对过去的一个完全突破，还是“换汤不换药”？</p>
+<p>面向对象方法并不是对过去的完全突破，而是对传统方法的改进和扩展。它继承了传统方法中的许多优点，同时引入了新的概念和技术，如封装、继承和多态性，使得软件开发更加自然和接近现实世界。面向对象方法强调对象和类的概念，将数据和操作封装在一起，提高了系统的模块化和可维护性。因此，面向对象方法可以看作是对传统方法的优化和发展，而不是完全的颠覆。</p>
+</li>
+<li>
+<p>OOA 建立分析模型的 5 个基本原则
+建立分析模型 5 个基本原则：</p>
+<ul>
+<li>建模信息域；</li>
+<li>描述模块功能；</li>
+<li>表示模型行为；</li>
+<li>分解以模型显示更多细节；</li>
+<li>早期模型表示问题的本质，而后期模型提供实现细节。</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">UML 基础 
+    <div id="uml-%E5%9F%BA%E7%A1%80" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#uml-%E5%9F%BA%E7%A1%80" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>UML 是统一建模语言（Unified Modeling Language）的缩写，是一种用于软件系统分析和设计的标准化建模语言。可视化、详述、构造、文档化
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734702026206.png" alt="1734702026206" />
+      
+    </figure>
+
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734704969926.png" alt="1734704969926" />
+      
+    </figure>
+</li>
+<li>UML 语法（图的画法）
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734752796427.png" alt="1734752796427" />
+      
+    </figure>
+</li>
+</ol>
+
+
+<h3 class="relative group">4 个重要的 UML 图 
+    <div id="4-%E4%B8%AA%E9%87%8D%E8%A6%81%E7%9A%84-uml-%E5%9B%BE" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-%E4%B8%AA%E9%87%8D%E8%A6%81%E7%9A%84-uml-%E5%9B%BE" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p><strong>用例图 Use Case Diagram</strong>
+用例图是从用户角度描述系统功能，是用户所能观察到的系统功能的模型图，用例是系统中的一个功能单元。
+用例图列出系统重的用例和系统外的参与者，并显示哪个参与者参与了哪个用例的执行（或称为发起了哪个用例）。</p>
+<ul>
+<li>参与者 Actor：在系统外部与系统直接交互的人或事物</li>
+<li>用例 Use Case：系统外部可见的一个系统功能单元。系统的功能由系统单元所提供，并通过一系列系统单元与一个或多个参与者之间交换的消息所表达。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734753189271.png" alt="1734753189271" />
+      
+    </figure>
+
+<strong>用例图中的关系（边）及解释</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734753380330.png" alt="1734753380330" />
+      
+    </figure>
+
+<strong>泛化</strong>：箭头指向的为一般化
+<strong>包含</strong>：箭头指向的为包含，必须执行
+<strong>扩展</strong>：箭头指向的为扩展，可选执行</li>
+</ul>
+</li>
+<li>
+<p><strong>类图 Class Diagram</strong>
+类图以反映类的组成（属性、操作），以及类之间的关系为主要目的，描述了软件系统的静态结构，是一种静态建模方法。类图包括类的内部结构和类之间的联系（关联、依赖、聚合等）。类是对现实世界中的事物（对象）的抽象。</p>
+<p><strong>类图中的术语及解释</strong></p>
+<p><strong>类名</strong>：斜体为抽象类</p>
+<p><strong>属性</strong>：<code>属性名：属性类型</code>, <code>+</code> 表示 public，<code>-</code> 表示 private，<code>#</code> 表示 protected，缺省值</p>
+<p><strong>操作</strong>：<code>操作名(参数列表:参数类型)：返回类型</code>，<code>+</code> 表示 public，<code>-</code> 表示 private，<code>#</code> 表示 protected，斜体为抽象操作</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734753968594.png" alt="1734753968594" />
+      
+    </figure>
+</p>
+<ul>
+<li>接口：一组操作的集合，只有操作的声明，没有操作的实现</li>
+<li>抽象类：不能实例化，只能作为其他类的父类，一般至少包含一个抽象操作</li>
+<li>模版类：一种参数化的类，在编译时把模版参数绑定到不同的数据类型，从而产生不同的类
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734754194300.png" alt="1734754194300" />
+      
+    </figure>
+</li>
+</ul>
+<p><strong>类图中的关系及解释</strong></p>
+<ol>
+<li><strong>关联关系</strong>：描述了类的结构之间的关系，具有方向、名字、角色和多重性等信息
+<ul>
+<li><strong>一般关联</strong>：<code>1...*</code> 表示 1 至多个，<code>0...1</code> 表示 0 至 1 个；双向关联省略箭头</li>
+<li><strong>聚合关系</strong>：<code>Aggregation</code>，指明一个聚集（整体）和组成部分之间的关系。类图包含有实物和关系，类图不存在了，实物和关系还可用于其它的类图。</li>
+<li><strong>组合关系</strong>：<code>Composition</code>，语义更强的聚合，部分和整体具有相同的生命周期。类与关联关系之间有了组合关系，类不存在了，则相应的关联关系也不存在了。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734754646473.png" alt="1734754646473" />
+      
+    </figure>
+
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734754687582.png" alt="1734754687582" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li><strong>泛化关系</strong>：在面向对象中一般称为 <strong>继承关系</strong>，存在与父类与子类、付接口与子接口之间
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734754756779.png" alt="1734754756779" />
+      
+    </figure>
+</li>
+<li><strong>实现关系</strong>：对应于类和接口之间的关系，类 Circle、Rectangle 实现了接口 Shape
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734754816352.png" alt="1734754816352" />
+      
+    </figure>
+</li>
+<li><strong>依赖关系</strong>：描述了一个类的变化对依赖它的类产生影响的情况。例如绑定（bind）、友元（friend）等
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734754919484.png" alt="1734754919484" />
+      
+    </figure>
+</li>
+</ol>
+<p><strong>类图与代码的映射</strong>
+类的映射、关联关系的映射、泛化关系的映射（<code>class SavingsAccount:public Accout</code>）、实现关系的映射（<code>class Circle : public Shape</code>, <code>virtual void Draw();</code>）、依赖关系的映射（模版类）</p>
+</li>
+<li>
+<p><strong>顺序图 Sequence Diagram</strong>
+顺序图用来表示 <strong>用例中的行为顺序</strong>，当执行一个用例行为时，顺序图中的每条消息对应了一个类操作或状态机中引起转换的事件。顺序图展示对象之间的交互，属于 <strong>动态建模</strong>。顺序图的重点在 <strong>消息序列</strong> 上。
+浏览顺序图的方法是 <strong>从上到下</strong> 查看对象间交换的消息。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734755478532.png" alt="1734755478532" />
+      
+    </figure>
+
+<strong>顺序图中的术语及解释</strong></p>
+<ul>
+<li>消息格式：<code>operation(parameter list)，向哪个对象发送消息，实际上就是调用它的类中的操作</code></li>
+<li>窄长方框用以强调这个部分处于活动状态</li>
+<li>对象生命线表示从上到下的时间顺序，消息 1 在消息 2 之前发生，消息 2 在消息 3 之前发生
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734755579289.png" alt="1734755579289" />
+      
+    </figure>
+
+<strong>购票用例的顺序图：</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734755799257.png" alt="1734755799257" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>状态图 Statechart Diagram</strong>
+状态图说明对象在它的生命期中响应事件所经历的状态序列，以及它们对那些事件的响应，状态图用于揭示 Actor、类、子系统和组件的复杂特性，为 <strong>实时系统建模</strong>。</p>
+<p><strong>状态图的组成</strong></p>
+<ul>
+<li><strong>状态</strong>，对象的状态是指在这个对象的 <strong>生命期中的一个条件或状况</strong>，在此期间对象将满足某些条件、执行某些活动，或等待某些事件。</li>
+<li><strong>转移</strong>，是 <strong>由一种状态到另一种状态的迁移</strong>。这种转移由被建模实体内部或外部事件触发。对一个类来说，转移通常是调用了一个可以引起状态发生重要变化的操作的结果。</li>
+</ul>
+<p><strong>状态图中的术语及解释</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734756101033.png" alt="1734756101033" />
+      
+    </figure>
+</p>
+<p><strong>状态的可选活动表</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734756171370.png" alt="1734756171370" />
+      
+    </figure>
+
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734756222735.png" alt="1734756222735" />
+      
+    </figure>
+</p>
+</li>
+</ol>
+<hr>
+
+
+<h2 class="relative group">Chapter 4 软件需求分析 
+    <div id="chapter-4-%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-4-%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">UML 分析模型 
+    <div id="uml-%E5%88%86%E6%9E%90%E6%A8%A1%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#uml-%E5%88%86%E6%9E%90%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>UML 分析模型的三个视图</p>
+<ul>
+<li><strong>功能模型</strong>：描述处理（数据变换），指明系统应该做什么 <code>Use Case Diagram</code></li>
+<li><strong>对象模型</strong>：描述静态结构，定义做事情的实体 <code>Class &amp; Object Diagram</code></li>
+<li><strong>动态模型</strong>：描述交互过程，规定什么时候做何事 <code>Sequence,State Diagram</code></li>
+</ul>
+</li>
+<li>
+<p>面向对象分析的本质
+3 个模型（功能、对象、动态），5 个层面（主题、类和对象、结构、属性、服务）</p>
+</li>
+<li>
+<p><strong>典型用例建模方法（Use Case Diagram）</strong>
+从和系统有交互的实体（外部用户）角度出发，描述系统应该具备哪些功能。</p>
+<ul>
+<li><strong>系统边界</strong>：包围用例的方框，表示系统的范围，边界内的用例表示系统将来要实现的功能。</li>
+<li><strong>参与者</strong>：在系统边界之外，透过系统边界与系统进行有意义的交互的任何人或事物。</li>
+<li><strong>用例</strong>：由系统执行的一个动作序列，给 <code>角色(actor)</code> 提供一项有价值的服务。</li>
+<li><strong>关系</strong>：角色和用例、角色之间、用例之间有意义的 <code>联系</code>。</li>
+</ul>
+<p><strong>Use Case 图的建立步骤</strong></p>
+<ul>
+<li>(1) 找出系统外部的参与者和外部系统，确定系统的边界和范围；</li>
+<li>(2) 确定每一个参与者所期望的系统行为；</li>
+<li>(3) 把这些系统行为命名为 Use Case；</li>
+<li>(4) 用泛化、包含、扩展等关系处理系统行为的公共或变更部分；</li>
+<li>(5) 编制和解释每一个 Use Case 的脚本；</li>
+<li>(6) 绘制 Use Case 图；</li>
+<li>[(7)] 区分主事件流和异常情况的事件流，可以把表示异常情况的事件流作为单独的 Use Case 处理；</li>
+<li>(8) 细化 Use Case 图，解决 Use Case 间的重复与冲突问题。</li>
+</ul>
+</li>
+<li>
+<p><strong>类建模方法（Class Diagram）</strong></p>
+<blockquote>
+<p><strong>The key is finding objects</strong></p>
+</blockquote>
+<p><strong>如何提取类和对象？</strong></p>
+<p>主题、类和对象、属性、服务、结构
+主题是一种比类和对象抽象层次更高、粒度更大的概念，用以建立系统的高层抽象视图；中小型系统可只设一层主题，最多不超过两层；大型系统可只设两层主题，最多不超过三层。</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734757456644.png" alt="1734757456644" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p><strong>动态模型（Sequence, State Diagram)</strong></p>
+<p>用来描述系统与时间相关的动态行为即系统的控制逻辑，表现对象彼此间经过相互作用后，随时间改变的不同运算顺序。
+动态模型以“事件”（<code>Events</code>）和“状态”（<code>States</code>）为其模型的主要概念。</p>
+</li>
+</ol>
+
+
+<h3 class="relative group">需求规范（Requirements Specification） 
+    <div id="%E9%9C%80%E6%B1%82%E8%A7%84%E8%8C%83requirements-specification" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9C%80%E6%B1%82%E8%A7%84%E8%8C%83requirements-specification" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>需求工程（Requirements Engineering）包括：<code>Part 1：需求分析</code>；<code>Part 2：需求规范</code></p>
+<p><strong>Requirements Specification 目的：</strong></p>
+<ul>
+<li>To provide a representation of the software for the customer’s review and approval</li>
+<li>Developed as a joint effort between the developer and the customer</li>
+<li>Serve as basis for review for both customer and developer</li>
+<li>Direct software design and development</li>
+<li>Culmination of requirements analysis</li>
+</ul>
+<p><strong>Requirements Specification 质量：</strong></p>
+<ul>
+<li>(1) unambiguous（明确的）</li>
+<li>(2) complete（完整的）</li>
+<li>(3) verifiable（可验证的）</li>
+<li>(4) consistent（一致的）</li>
+<li>(5) modifiable（可修改的）</li>
+<li>(6) traceable（可追踪的）</li>
+</ul>
+<p><strong>Requirements Specification 的方法：</strong></p>
+<ul>
+<li>可混合使用的模型：DFD、ERD、DD&hellip;Use Case、Class Diagram、Sequence Diagram&hellip;</li>
+<li>使用但不限于面向结构，面向对象方法</li>
+<li>IPO 图，在计算机领域 IPO 是指结构化设计中变换型结构的输入（Input）、加工（Processing）、输出（Output）。IPO 图是对每个模块进行详细设计的工具，它是输入加工输出(INPUT PROCESS OUTPUT)图的简称。</li>
+</ul>
+<p><strong>需求规格说明书</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gh"># 1. 引言
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 1.1 系统的目的
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 1.2 系统范围
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 1.3 项目的目标与成功标准
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 1.4 定义、缩略语和缩写
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 1.5 参考文献
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 1.6 概述
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># 2. 当前系统
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl"><span class="gh"># 3. 提议的系统
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 3.1 概述
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 3.2 功能需求
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 3.3 非功能需求
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.1 可用性
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.2 可靠性
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.3 性能
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.4 可维护性
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.5 实施
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.6 接口
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.7 包装
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.3.8 法律
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 3.4 系统模型
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.4.1 场景
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.4.2 用例模型
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.4.3 对象模型
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.4.4 动态模型
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> 3.4.5 用户界面
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># 4. 术语表
+</span></span></span></code></pre></div><hr>
+
+
+<h2 class="relative group">Chapter 5 总体设计 
+    <div id="chapter-5-%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-5-%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">总体设计基础概念 
+    <div id="%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p><strong>软件需求 VS 软件设计</strong></p>
+<ul>
+<li>软件需求解决的是“做什么”的问题，软件设计解决的是“怎么做”的问题</li>
+<li>软件设计分为 <strong>总体设计</strong> 和 <strong>详细设计</strong></li>
+<li>软件需求：分析模型；软件设计：设计模型</li>
+</ul>
+</li>
+<li>
+<p><strong>总体设计 VS 详细设计</strong></p>
+<ul>
+<li><strong>总体设计</strong>：确定软件的结构以及各组成部分（子系统或模块）之间的相互关系
+<ul>
+<li>总体设计的任务：将复杂系统按功能 <strong>分成模块</strong>、确定每个模块的功能和模块之间的 <strong>调用关系</strong>、块间传递的信息、<strong>评价模块结构的质量</strong>。</li>
+</ul>
+</li>
+<li><strong>详细设计</strong>：确定模块内部的算法和数据结构，产生描述各模块程序过程的详细文档
+<ul>
+<li>详细设计的任务：为每个模块进行详细的 <strong>算法设计</strong>，用某种图形、表格、语言等工具将每个模块吹了过程的详细算法描述出来；为模块内的 <strong>数据结构进行设计</strong>；对数据库进行物理设计（确定数据库的物理结构）；</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>什么是软件体系结构？</p>
+<ul>
+<li>软件体系结构定义了软件局部和总体计算部件的 <strong>构成</strong>。从整体看，软件体系结构是由结构- 和功能各异、相互作用的部件集合，按照层次构成的。</li>
+<li>软件体系结构定义了组成部件之间的相互作用 <strong>关系</strong>。</li>
+<li>软件体系结构定义了构成系统的合成原理、方法、<strong>原则</strong></li>
+<li>软件体系结构定义了构成系统应该遵守的 <strong>约束</strong> 的条件。</li>
+</ul>
+</li>
+<li>
+<p>总体设计的任务：</p>
+</li>
+</ol>
+<ul>
+<li>确定软件的组成</li>
+<li>确定各组成部分的相互关系</li>
+<li>确定软件的运行模式</li>
+<li>确定软件的若干原则</li>
+</ul>
+<ol start="5">
+<li>软件设计方法：</li>
+</ol>
+<ul>
+<li>结构化设计方法(SD)</li>
+<li>面向对象的设计方法(OOD)</li>
+<li>面向数据结构的设计方法(JSD 方法)</li>
+</ul>
+<ol start="6">
+<li>
+<p><strong>评估准则</strong>：经验启发式规则、模块化、抽象、信息隐蔽、信息局部化</p>
+<p><strong>什么是好的软件体系结构</strong>：<strong>模块化（Modularization）</strong>、抽象（Abstraction）、信息隐蔽（Information Hiding）、注意点分散(Separation of Concerns)、耦合和内聚 (couple and cohesion)、策略和实现的分离 (separation of police and implementation)、接口和实现的分离 (separation of interface and implementation)、分而制之(Divide-and-conquer)、层次化 (hierarchy)</p>
+</li>
+<li>
+<p><strong>总体结构的设计方法</strong></p>
+<ol>
+<li>
+<p><strong>根据经验划分子系统结构</strong>：根据待解决的问题 <strong>特点</strong> 和用户需求</p>
+</li>
+<li>
+<p><strong>结构模式或风格</strong>：<code>Architectural Pattern or Style</code>。单机、多机、网络、集中式、分布式、客户端/服务器（表示层、功能层、数据层）</p>
+<ul>
+<li>胖客户机和瘦客户机
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734762539882.png" alt="1734762539882" />
+      
+    </figure>
+</li>
+<li>三层 B/S 结构
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734762586126.png" alt="1734762586126" />
+      
+    </figure>
+</li>
+<li>分布式对象体系结构：对象之间不存在客户机和服务器的界限，接收服务者扮演客户机角色，提供服务者就是服务器；对象可能分布在网络的多个计算机上，通过中间件相互通信
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734762699190.png" alt="1734762699190" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>由 DFD 图导出总体结构</strong></p>
+<blockquote>
+<p>I-&gt; <strong>P</strong>-&gt; O
+自顶向下，逐步细化</p>
+</blockquote>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734762814592.png" alt="1734762814592" />
+      
+    </figure>
+</p>
+<p><strong>最顶层的控制模块 Cm 协调下述从属的控制功能：</strong></p>
+<ul>
+<li>（1）输入信息处理控制模块 Ci，协调对所有输入数据的接收；</li>
+<li>（2）变换中心控制模块 Ct，管理对内部形式的数据的所有操作；</li>
+<li>（3）输出信息控制模块 Co，协调输出信息的产生过程。</li>
+</ul>
+</li>
+<li>
+<p><strong>由类图导出总体结构</strong></p>
+</li>
+</ol>
+</li>
+</ol>
+
+
+<h3 class="relative group">总体设计的原则 
+    <div id="%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1%E7%9A%84%E5%8E%9F%E5%88%99" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E4%BD%93%E8%AE%BE%E8%AE%A1%E7%9A%84%E5%8E%9F%E5%88%99" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group">模块化原理 
+    <div id="%E6%A8%A1%E5%9D%97%E5%8C%96%E5%8E%9F%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%A8%A1%E5%9D%97%E5%8C%96%E5%8E%9F%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>
+<p>模块化（Modularization）</p>
+<blockquote>
+<p>suppose P1, P2 be two problems, <br>
+function C(x) stands the complexity of problem x, <br>
+function E(x) represents the cost of solving problem x, <br>
+if C(P1) &gt; C(P2) <br>
+Then E(P1) &gt; E(P2) <br>
+<strong>Experiential rule:</strong> <br>
+C(P1+P2) &gt; C(P1) + C(P2) <br>
+E(P1+P2) &gt; E(P1) +E(P2)</p>
+</blockquote>
+</li>
+<li>
+<p>抽象（Abstraction）</p>
+<blockquote>
+<p>Abstractions allow you to understand the essence of a subsystem without having to know unnecessary details</p>
+</blockquote>
+</li>
+<li>
+<p>信息隐蔽（Information Hiding）</p>
+<blockquote>
+<p>模块中所包含的信息（包括数据和过程）不允许其它不需要这些信息的模块使用。 <br>
+设计模块时，应使得一个模块内包含的信息（数据和过程）对于不需要这些信息的模块来说，是不能访问的。</p>
+</blockquote>
+</li>
+<li>
+<p>模块独立（Module Independence）</p>
+<ul>
+<li>
+<p>耦合（Coupling）：对一个软件结构内不同模块间互连程度的度量。模块间的连接有 <code>调用</code>、<code>返回</code>、<code>进入</code>、<code>跳出</code> 等
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734763771187.png" alt="1734763771187" />
+      
+    </figure>
+</p>
+<ul>
+<li><strong>无直接耦合</strong>：如果两个模块之间没有直接关系，它们之间的联系完全是通过主模块的控制和调用来实现的，这就是非直接耦合。这种耦合的 <strong>模块独立性最强</strong>。</li>
+<li><strong>数据耦合</strong>：一模块调用另一模块时，被调用模块的输入、输出都是简单的数据(若干参数)。属于 <strong>松散耦合</strong>。</li>
+<li><strong>控制耦合</strong>：一模块向下属模块传递的信息 (开关量、标志等控制被调用模块决策的变量) <strong>控制了被调用模块的内部逻辑</strong>。可以将被调用模块的判定上移到调用模块中进行，改控制耦合为数据耦合。</li>
+<li><strong>公共耦合（公共数据区耦合）</strong>：一组模块引用同一个公用数据区，全局变量</li>
+<li><strong>内容耦合</strong>：一个模块直接访问另一个模块的内部数据结构，或者直接调用另一个模块的内部子程序。<strong>最不好的耦合形式</strong>。</li>
+</ul>
+</li>
+<li>
+<p>内聚（Cohesion）：标志一个模块内各个处理元素彼此结合的紧密程度，理想的内聚模块只做一件事情。</p>
+<ul>
+<li>功能内聚：模块内的所有元素都是为了完成一个功能而设计的，缺一不可，<strong>内聚性最强</strong></li>
+<li>过程内聚，顺序内聚</li>
+<li>时间内聚（经典内聚）：模块完成的功能在同一时间内执行，这些功能只因时间因素关联在一起。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734764266314.png" alt="1734764266314" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>追求：</strong></p>
+<ul>
+<li><strong>高内聚、低耦合</strong></li>
+<li>低耦合：尽量使用数据耦合，少用控制耦合，限制公共耦合的范围，坚决避免使用内容耦合。</li>
+<li>高内聚：优先使用功能内聚，尽量满足过程内聚，少用逻辑内聚，坚决避免偶然内聚。</li>
+</ul>
+
+
+<h4 class="relative group">模块独立性度量 
+    <div id="%E6%A8%A1%E5%9D%97%E7%8B%AC%E7%AB%8B%E6%80%A7%E5%BA%A6%E9%87%8F" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%A8%A1%E5%9D%97%E7%8B%AC%E7%AB%8B%E6%80%A7%E5%BA%A6%E9%87%8F" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>深度：表示软件结构中控制的层数，它能粗略表示软件的复杂程度。</li>
+<li>宽度：表示软件结构同一层内的模块总数。宽度越大系统越复杂，对宽度影响最大因素是模块的扇出。宽度太大可增加深度来减少。</li>
+<li>扇出数：是一个模块直接控制（调用）的模块数目（5-9）。扇出越大模块越复杂。</li>
+<li>扇入数：是直接调用的上级模块数（3-5）。扇入太大会增加模块接口数，违背模块独立性原则。</li>
+<li>上级模块</li>
+<li>下级模块</li>
+</ul>
+<p><strong>模块的作用域应该在控制域之内：</strong></p>
+<ul>
+<li>模块的作用域：是指受该模块判定影响的所有模块数。</li>
+<li>模块的控制域：是受这个模块直接或间接控制调用的模块数。</li>
+<li>模块的控制范围：本身及其 <strong>所有下级模块</strong>。</li>
+<li>模块的作用范围： 即 <strong>直接调用</strong> 的模块</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">Chapter 6 详细设计 
+    <div id="chapter-6-%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-6-%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">详细设计初认识 
+    <div id="%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1%E5%88%9D%E8%AE%A4%E8%AF%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1%E5%88%9D%E8%AE%A4%E8%AF%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<blockquote>
+<p><strong>Detailed design = data structure+ algorithm</strong></p>
+</blockquote>
+<ul>
+<li>软件定义阶段定义了问题结构，叫作软件设计的 <strong>一级蓝图</strong>。可用系统流程图表示、或数据流图表示、或用结构化语言表示、或以形式化软件设计语言表示。</li>
+<li>软件总体设计确定了软件结构，即确定模块的划分、模块间的接口。可称作软件设计 <strong>二级蓝图</strong>。用结构图、Jackson 结构图、Warnier 图来表示、或用 HIPO 图来表示。</li>
+<li>软件详细设计（也称软件算法设计、软件过程设计、软件逻辑设计）确定每个软件模块的实现算法，可称软件设计的 <strong>三级蓝图</strong>。可用 <strong>程序流程图描述、或用伪码描述</strong>。</li>
+</ul>
+<p><strong>OOA &amp; OOD</strong>
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734765441492.png" alt="1734765441492" />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">软件复用（Reuse） 
+    <div id="%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8reuse" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8reuse" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>软件复用的层次：</p>
+<ul>
+<li>知识重用</li>
+<li>方法和标准重用</li>
+<li>软件成分重用：项目计划、成本估算、体系结构、需求模型和规格说明、设计方案、源代码、用户文档和技术文档、用户界面、数据</li>
+</ul>
+</li>
+<li>
+<p>面向对象设计的重用机制</p>
+<ul>
+<li>传统上：内部函数</li>
+<li>面向对象：内部类（类构件）
+<ul>
+<li>实例重用</li>
+<li>继承重用</li>
+<li>多态重用</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">详细设计的描述 
+    <div id="%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%8F%8F%E8%BF%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%8F%8F%E8%BF%B0" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>程序流程图（Program Flow Chart）：顺序、选择、循环。优点：简单直观；缺点：全局结构、数据结构难表示
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734765918320.png" alt="1734765918320" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p>N-S 盒图：顺序、IF-THEN-ELSE 分支、CASE 分支、循环、调用。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734766038900.png" alt="1734766038900" />
+      
+    </figure>
+
+特点：</p>
+<ul>
+<li>
+<p>（1）功能域（即某一具体构造的功能范围）有明确的规定，并且很只观地从图形表示中看出来；</p>
+</li>
+<li>
+<p>（2）想随意分支或转移是不可能的；</p>
+</li>
+<li>
+<p>（3）局部数据和全程数据的作用域可以很容易确定；</p>
+</li>
+<li>
+<p>（4）容易表示出递归结构。</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734766259505.png" alt="1734766259505" />
+      
+    </figure>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">Do</span> <span class="k">while</span> <span class="n">C1</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="n">C2</span>
+</span></span><span class="line"><span class="cl">          <span class="k">if</span> <span class="n">C3</span>
+</span></span><span class="line"><span class="cl">              <span class="n">Do</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">S1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                  <span class="k">if</span> <span class="n">C5</span>
+</span></span><span class="line"><span class="cl">                      <span class="n">S3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                      <span class="n">S2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                   <span class="n">endif</span>
+</span></span><span class="line"><span class="cl">                   <span class="n">S4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">until</span> <span class="n">C4</span>
+</span></span><span class="line"><span class="cl">                <span class="n">S5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">endif</span>
+</span></span><span class="line"><span class="cl">         <span class="n">endif</span>
+</span></span><span class="line"><span class="cl"> <span class="n">enddo</span>
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ol>
+<hr>
+
+
+<h2 class="relative group">Chapter 7 编码或实现 
+    <div id="chapter-7-%E7%BC%96%E7%A0%81%E6%88%96%E5%AE%9E%E7%8E%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-7-%E7%BC%96%E7%A0%81%E6%88%96%E5%AE%9E%E7%8E%B0" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ol>
+<li>
+<p>编码阶段的两个重要决策</p>
+<ul>
+<li>选择编程语言</li>
+<li>选择编码标准或风格</li>
+</ul>
+</li>
+<li>
+<p>编程语言的分类</p>
+<ul>
+<li>机器语言</li>
+<li>汇编语言</li>
+<li>高级语言
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734767094911.png" alt="1734767094911" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p>C++编程阶段：编译、链接、执行
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734767129278.png" alt="1734767129278" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p>编码风格具体体现</p>
+<ul>
+<li>标识符（符号名、变量名）的风格</li>
+<li>注释的风格
+<ul>
+<li>序言性注释：给出程序的整体说明</li>
+<li>功能性注释：嵌在源程序体中，用以描述其后的语句或程序段是在做什么工作</li>
+</ul>
+</li>
+<li>数据说明的风格</li>
+<li>语句结构的风格</li>
+<li>输入 ／ 输出的风格</li>
+<li>程序 layout 风格</li>
+</ul>
+</li>
+<li>
+<p>程序复杂性的度量</p>
+<ul>
+<li>
+<p>程序复杂性： 模块内程序代码的复杂程度，例如行数，if 条件判断的个数，loop 循环的圈数等。</p>
+</li>
+<li>
+<p>算法的时间复杂性（执行的步数）和空间复杂性（占用的存储空间）</p>
+</li>
+<li>
+<p>复杂性度量方法</p>
+<ul>
+<li>
+<p>代码行度量法</p>
+</li>
+<li>
+<p>McCabe 度量法：计算环路复杂性的方法：根据图论，在一个强连通的有向图 G 中，环的个数由以下公式给出： <code>V(G)＝ m－n ＋ p</code>， 其中，<code>V(G)</code> 是图 G 中环路个数，<code>m</code> 是图 G 中弧数，<code>n</code> 是图 G 中结点数，<code>p</code> 是图 G 中的强连通分量个数。</p>
+</li>
+<li>
+<p>Halstead 的软科学法：度量操作码，操作数；运算符，运算对象</p>
+<ul>
+<li>预测方法：
+<code>n1</code> 表示程序设计时不同运算符(包括保留字)的个数，
+<code>n2</code> 表示程序设计时不同运算对象的个数，
+<code>H</code> 表示“程序长度”，则有
+<code>H=n1×log2 n1+n2 × log2n2</code>
+<code>H</code> 是程序长度的预测值</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+
+
+<h2 class="relative group">Chapter 8 软件测试 
+    <div id="chapter-8-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-8-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<blockquote>
+<p><strong>测试在软件开发中非常重视</strong> <strong>The biggest cost in software development</strong></p>
+</blockquote>
+<p><strong>软件测试是为了发现错误而运行一个软件的过程。</strong></p>
+
+
+<h3 class="relative group">软件测试基本概念 
+    <div id="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>软件测试的定义或目标（狭义）
+<ul>
+<li>测试是为了发现程序中的错误而执行程序的过程</li>
+<li><strong>一个好的测试用例</strong> 是发现了至今未发现错误的用例</li>
+<li><strong>一次成功的测试</strong> 是发现了至今未发现错误的测试</li>
+<li>程序测试能证明错误的存在, 但不能证明错误不存在。</li>
+<li>测试的目的是发现程序中的错误，为了证明程序有错, 而不是证明程序无错。</li>
+</ul>
+</li>
+<li>软件测试的定义或目标（广义）：用于确保软件符合其规范并满足用户要求的过程
+<strong>Verification vs. validation</strong>
+<ul>
+<li>Validation: Are we building the right product?The software should do what the users really require</li>
+<li>Verification: Are we building the product right?The software should conform to its specification</li>
+<li>V &amp; V must be applied at each stage in the software process.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">软件测试的两个方法 
+    <div id="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%96%B9%E6%B3%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%96%B9%E6%B3%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734768719528.png" alt="1734768719528" />
+      
+    </figure>
+</p>
+
+
+<h4 class="relative group">静态测试 Static Test 
+    <div id="%E9%9D%99%E6%80%81%E6%B5%8B%E8%AF%95-static-test" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9D%99%E6%80%81%E6%B5%8B%E8%AF%95-static-test" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>基本特征是在对软件进行 <strong>分析、检查和审阅</strong>，<strong>不实际运行</strong> 被测试的软件。</li>
+<li>静态测试约可找出 30 ～ 70%的 <strong>逻辑设计</strong> 错误.</li>
+<li>对需求规格说明书、软件设计说明书、源程序做检查和审阅，包括：
+<ul>
+<li>是否符合标准和规范</li>
+<li>通过结构分析、流图分析、符号执行指出软件缺陷</li>
+</ul>
+</li>
+</ul>
+
+
+<h4 class="relative group">动态测试 Dynamic Test 
+    <div id="%E5%8A%A8%E6%80%81%E6%B5%8B%E8%AF%95-dynamic-test" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8A%A8%E6%80%81%E6%B5%8B%E8%AF%95-dynamic-test" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>通过运行被测程序来检验软件的动态行为和运行结果的正确性</li>
+<li>动态测试的两个基本要素：
+<ul>
+<li>被测试程序</li>
+<li>测试用例（测试数据）</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>
+<p><strong>动态黑盒测试（闭着眼睛测试软件）</strong>
+黑盒测试，也叫功能测试，是指测试人员不需要了解程序的内部实现，<strong>只关注系统的输入与输出</strong>，测试系统是否按照需求文档的要求正确执行。</p>
+<ul>
+<li><strong>不深入代码细节</strong> 的测试方法称为动态黑盒测试。</li>
+<li>软件测试员充当 <strong>客户</strong> 来使用它。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734769012513.png" alt="1734769012513" />
+      
+    </figure>
+</li>
+</ul>
+<p><strong>黑盒测试样例的设计方法：</strong></p>
+<ul>
+<li>等价类划分法：将输入数据划分为若干个等价类，从每个等价类中选取一个数据作为测试数据。Equivalence analysis is the most widely used approach.
+<ul>
+<li>有效等价类：用于实现功能和性能的测试</li>
+<li>无效等价类：用于测试那些所实现的功能和性能不符合规格说明书的要求
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734770070873.png" alt="1734770070873" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>边界测试：更多错误往往会发生在输入域的边界。
+<ul>
+<li>边界值分析不是从某等价类中随便挑一个作为代表，而是使这个等价类的每个边界都要作为测试条件。</li>
+<li>边界值分析不仅考虑输入条件，还要考虑输出空间产生的测试情况</li>
+<li>测试边界上的合法数据, 以及刚超过边界的非法数据</li>
+</ul>
+</li>
+<li>错误推测法：根据经验、直觉和预感进行测试。缺省值、空白、空值、零、无输入条件</li>
+<li>因果图法：<strong>相互组合</strong>，适合 <strong>有多个输入条件的组合</strong>，根据输入和输出之间的因果关系，构造因果图，从而设计测试用例</li>
+<li>自动软件测试：人工测试耗时、需要回归测试，自动测试可以提高效率、减少人力成本</li>
+</ul>
+</li>
+<li>
+<p><strong>动态白盒测试（带 X 光眼镜测试软件）</strong>
+白盒测试，也叫结构测试或透明盒测试，是指测试人员对被测试软件的内部结构、算法、代码逻辑等有充分的了解，<strong>基于程序的内部工作原理来</strong> 设计和执行测试用例。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734769004218.png" alt="1734769004218" />
+      
+    </figure>
+
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734769221325.png" alt="1734769221325" />
+      
+    </figure>
+</p>
+<p><strong>白盒测试的样例设计规则：</strong></p>
+<ul>
+<li>语句覆盖：每个语句至少执行一次</li>
+<li>判定覆盖：每个判定的每个分支至少执行一次</li>
+<li>条件覆盖：每个判定的每个条件的每个取值至少执行一次</li>
+<li>判定/条件覆盖：每个判定的每个条件的每个取值至少执行一次，且每个判定的每个分支至少执行一次</li>
+<li>条件组合覆盖：每个判定的每个条件的每个取值至少执行一次，且每个判定的每个条件的每个组合至少执行一次</li>
+<li>路径覆盖：每个程序路径至少执行一次</li>
+<li>点覆盖：每个判定的每个条件的每个取值至少执行一次，且每个判定的每个条件的每个组合至少执行一次，且每个程序路径至少执行一次，It is equal to statement coverage</li>
+<li>边覆盖：每个程序的每条边至少执行一次，It is equal to branch coverage</li>
+</ul>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734768986799.png" alt="1734768986799" />
+      
+    </figure>
+</p>
+</li>
+</ol>
+
+
+<h4 class="relative group">软件测试的过程 
+    <div id="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%9A%84%E8%BF%87%E7%A8%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%9A%84%E8%BF%87%E7%A8%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p>软件测试的过程，即软件集成、形成过程：</p>
+<ul>
+<li>
+<p><strong>单元测试</strong>：集中对用 <strong>源代码</strong> 实现的, 每一个程序单元进行测试，检查各个程序模块是否正确地实现了规定的功能。</p>
+</li>
+<li>
+<p><strong>集成测试</strong>：把已测试过的模块组装起来，主要对与设计相关的软件 <strong>体系结构</strong> 的构造进行测试。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734770968403.png" alt="1734770968403" />
+      
+    </figure>
+</p>
+<ul>
+<li>
+<p>模块组装集成方式</p>
+<ul>
+<li>一次性组装方式：整体拼装，一次性测试</li>
+<li>增殖式组装方式：逐步组装成较大的系统，边组装边测试</li>
+</ul>
+</li>
+<li>
+<p>增殖式组装方式</p>
+<ul>
+<li>自顶向下的增殖方式</li>
+<li>自底向上的增殖方式：从程序模块结构的最底层的模块开始组装和测试。</li>
+<li>混合增殖式测试：首先对 I/O 模块和关键算法模块进行测试，再自底向上组装成完整且独立的子系统，再由主模块开始自顶向下进行增殖测试</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>确认测试</strong>：检查已实现的软件是否满足了 <strong>需求规格说明</strong> 中确定了的各种需求，以及软件配置是否完全、正确。</p>
+<ul>
+<li>有效性测试（黑盒测试）</li>
+<li>软件配置复查</li>
+<li>Alpha 测试，Beta 测试
+<ul>
+<li>α 测试是由一个开发者在 <strong>开发环境下</strong> 进行的测试，也可以是 <strong>公司内部的用户</strong> 在模拟实际操作环境下进行的测试。</li>
+<li>β 测试是由软件的多个用户，在 <strong>实际使用环境下</strong> 进行的测试。这些用户 <strong>返回有关错误信息给开发者</strong>。</li>
+</ul>
+</li>
+<li>验收测试
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734771302895.png" alt="1734771302895" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>系统测试</strong>：把经过确认的软件纳入 <strong>实际运行</strong> 环境中，与其它系统成份组合在一起进行测试。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734770714620.png" alt="1734770714620" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p>功能测试、非功能测试
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734771438195.png" alt="1734771438195" />
+      
+    </figure>
+</p>
+</li>
+<li>
+<p>其他测试：性能、恢复测试、配置测试、安全性测试、安装测试、兼容测试等等</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">停止测试条件 
+    <div id="%E5%81%9C%E6%AD%A2%E6%B5%8B%E8%AF%95%E6%9D%A1%E4%BB%B6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%81%9C%E6%AD%A2%E6%B5%8B%E8%AF%95%E6%9D%A1%E4%BB%B6" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<blockquote>
+<p>Testing is a trade-off between budget, time and quality.</p>
+</blockquote>
+
+
+<h3 class="relative group">可靠性分析 
+    <div id="%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%88%86%E6%9E%90" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%88%86%E6%9E%90" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p><strong>可靠性</strong>：<code>reliability of software</code> 程序在给定的 <strong>时间间隔</strong> 内，按照规格说明书的规定，成功运行的概率。</p>
+<p><strong>可用性</strong>：<code>usability of software</code> 程序在给定的 <strong>时间点</strong>，按照规格说明书的规定，成功运行的概率。</p>
+<p><strong>公式：</strong>
+$$A_{use}=\frac{T_{up}}{T_{up}+T_{down}}$$
+$$A_{use}=\frac{MTTF}{MTTF+MTTR}$$</p>
+<ul>
+<li><code>MTTF</code>: 平均无故障时间</li>
+<li><code>MTTR</code>: 平均修复时间</li>
+</ul>
+<p><strong>MTTF 的计算</strong></p>
+<ul>
+<li>
+<p><strong>符号表示</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><strong>符号</strong></th>
+          <th style="text-align: left"><strong>含义</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>ET</strong></td>
+          <td style="text-align: left">total error before testing</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>IT</strong></td>
+          <td style="text-align: left">size of program to be tested</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>τ</strong></td>
+          <td style="text-align: left">time used by testing</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Ed(τ)</strong></td>
+          <td style="text-align: left">found errors in [0, τ]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Ec(τ)</strong></td>
+          <td style="text-align: left">corrected errors in [0, τ]</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>
+<p><strong>两个基本假定</strong></p>
+<ul>
+<li>$$ 0.005 &lt;= ET / IT &lt;= 0.02 $$</li>
+<li>$$ MTTF \propto 1 / \text{hidden bugs} $$</li>
+</ul>
+</li>
+<li>
+<p><strong>计算公式</strong></p>
+</li>
+</ul>
+<p>$$
+\text{MTTF} = \frac{1}{K \left( \frac{E_T}{I_T} - \frac{Ec(\tau)}{I_T} \right)}
+$$</p>
+<p>其中： ( K = 200 )</p>
+<p>$$
+Ec = ET - \frac{I_T}{K \times MTTF} \quad \text{(stop rule)}
+$$</p>
+<p><strong>Predicting total errors(ET)</strong></p>
+<ul>
+<li>
+<p>植入法：在程序中植入错误</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><strong>符号</strong></th>
+          <th style="text-align: left"><strong>含义</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>( N_p )</strong></td>
+          <td style="text-align: left">number of errors planted</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>( n_p )</strong></td>
+          <td style="text-align: left">number of errors found within ( N_p )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>( n )</strong></td>
+          <td style="text-align: left">found new errors</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>( N )</strong></td>
+          <td style="text-align: left">total number of errors</td>
+      </tr>
+  </tbody>
+</table>
+<p>$$\frac{N}{n}=\frac{N_p}{n_p} =&gt; \frac{n_p}{N_p}=\frac{n}{N}$$
+$$N=N_p\times\frac{n}{n_p}$$</p>
+</li>
+<li>
+<p>分别测试法：区分标记故障和非标记故障</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><strong>符号</strong></th>
+          <th style="text-align: left"><strong>含义</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>( N_1 )</strong></td>
+          <td style="text-align: left">found errors by person 1 （标记故障）</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>( N_2 )</strong></td>
+          <td style="text-align: left">found errors by person 2 （非标记故障，潜在故障）</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>( n_b )</strong></td>
+          <td style="text-align: left">found errors by both person1 and person 2</td>
+      </tr>
+  </tbody>
+</table>
+<p>$$N=N_1 \times N_2 / n_b$$</p>
+</li>
+</ul>
+
+
+<h3 class="relative group">调试 
+    <div id="%E8%B0%83%E8%AF%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%B0%83%E8%AF%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>测试是识别错误的症状，调试是识别错误的原因。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734773074297.png" alt="1734773074297" />
+      
+    </figure>
+
+<strong>Debugging</strong></p>
+<ul>
+<li>软件调试是在进行了成功的测试之后才开始的工作.</li>
+<li>调试的任务是进一步诊断和改正程序中潜在的错误</li>
+<li>调试活动由两部分组成：性质原因和位置, 修改排除这个错误</li>
+<li>调试工作是一个具有很强技巧性和经验性的工作</li>
+<li>调试是通过现象，找出原因的一个思维分析的过程</li>
+<li>通过 debuger 工具来进行</li>
+<li>Most integrated development environments, such as JBuilder, include a debugger.</li>
+</ul>
+<p><strong>几种主要的调试方法</strong></p>
+<ul>
+<li>强行排错法：内存打印、设置打印语句，跟踪程序执行过程</li>
+<li>回溯法调试：<strong>小程序常用</strong>，人工沿着程序的控制流程回溯源代码，找出错误根源</li>
+<li>归纳法调试：从一些线索(错误征兆)着手，通过分析它们之间的关系来找出错误。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734773254896.png" alt="1734773254896" />
+      
+    </figure>
+</li>
+<li>演绎法调试：演绎法是一种从一般原理或前提出发，经过排除和精化的过程来推导出结论的思考方法。演绎法排错是测试人员首先根据已有的测试用例，设想及枚举出所有可能出错的原因做为假设；然后再用原始测试数据或新的测试，从中逐个排除不可能正确的假设；最后，再用测试数据验证余下的假设确是出错的原因。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734773298643.png" alt="1734773298643" />
+      
+    </figure>
+</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">Chapter 9 软件维护 
+    <div id="chapter-9-%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-9-%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<blockquote>
+<p>软件的变化是不可避免的，关键是采取适当的策略，有效地实施和管理软件的变化！</p>
+</blockquote>
+
+
+<h3 class="relative group">软件维护的概念 
+    <div id="%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4%E7%9A%84%E6%A6%82%E5%BF%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4%E7%9A%84%E6%A6%82%E5%BF%B5" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>软件维护是软件开发工作完成以后，<strong>在用户使用期间</strong>，对软件所做的补充、修改和增加工作。</li>
+<li>软件运行 ＝ 软件维护</li>
+<li>在软件维护中，为 <strong>增加和改进软件的功能</strong> 所做的维护占 80%，而为改正错误所做的维护仅占 20%。</li>
+<li>统计数据表明：实际上用于软件维护的费用占软件总费用的 55-80%。</li>
+<li>软件维护比软件开发更困难，需要更多的创造性工作。</li>
+<li><strong>一般不涉及体系结构的重大变化</strong></li>
+</ul>
+
+
+<h3 class="relative group">软件维护的类型 
+    <div id="%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4%E7%9A%84%E7%B1%BB%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4%E7%9A%84%E7%B1%BB%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong>改正性维护</strong>：目的是识别和矫正功能 <strong>错误</strong>、性能 <strong>错误</strong> 和实现上的 <strong>错误</strong>。
+<ul>
+<li>Emergency Repairs</li>
+<li>Scheduled Repairs</li>
+</ul>
+</li>
+<li><strong>适应性维护</strong>：使软件适应于 <strong>外界环境的改变</strong> 而对软件所做的修改工作。</li>
+<li><strong>完善性维护</strong>：为了 <strong>扩充软件的功能</strong> 或改善软件的性能对软件所做的改变。</li>
+<li><strong>预防性维护</strong>：为了 <strong>以后</strong> 更便于维护，或者为了改进可靠性，或者提供更好的基础便于将来提高性能而修改软件。可视为彻底的完美维护或维护的替代方案，<code>Software Re-engineering</code></li>
+</ul>
+
+
+<h3 class="relative group">可维护性（Maintainability） 
+    <div id="%E5%8F%AF%E7%BB%B4%E6%8A%A4%E6%80%A7maintainability" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8F%AF%E7%BB%B4%E6%8A%A4%E6%80%A7maintainability" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>软件可维护性是指软件被理解、改正、调整和改进的程度
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734773965465.png" alt="1734773965465" />
+      
+    </figure>
+
+提高可维护性可以通过进行明确的质量保证审查、改进程序的文档、提倡标准化、规范化开发</p>
+
+
+<h3 class="relative group">再工程（Re-engineering） 
+    <div id="%E5%86%8D%E5%B7%A5%E7%A8%8Bre-engineering" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%86%8D%E5%B7%A5%E7%A8%8Bre-engineering" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734774117912.png" alt="1734774117912" />
+      
+    </figure>
+</p>
+<hr>
+
+
+<h2 class="relative group">Chapter 10 软件项目管理 
+    <div id="chapter-10-%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#chapter-10-%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<blockquote>
+<p>项目是指为创建一个唯一的产品，或者提供唯一的服务而进行的努力活动。</p>
+</blockquote>
+<p><strong>项目的特点：</strong> 目标性、周期性、约束性、不确定性</p>
+<p><strong>软件项目的特点：</strong></p>
+<ul>
+<li>对象：作为逻辑产品的软件</li>
+<li>过程：不是以制造为主，无重复生产过程</li>
+<li>属性：成本、进度、质量难以度量和估算</li>
+<li>易变性：软件需求通常难以确定且经常变</li>
+<li>复杂性：作为逻辑产品，复杂性非常高</li>
+</ul>
+
+
+<h3 class="relative group">软件项目管理的基本概念 
+    <div id="%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>软件项目管理是为了使软件项目能够按照预定的成本、进度、质量顺利完成，而对成本、人员、进度、质量、风险等进行分析和管理的活动。</p>
+
+
+<h3 class="relative group">团队分工 
+    <div id="%E5%9B%A2%E9%98%9F%E5%88%86%E5%B7%A5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%9B%A2%E9%98%9F%E5%88%86%E5%B7%A5" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734774579158.png" alt="1734774579158" />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">相关概念 
+    <div id="%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>基线（BaseLine）是已经通过了正式复审的规格说明或中间产品，它可以作为进一步开发的基础，并且只有通过正式的变化控制过程才能改变。基线标志着软件开发过程的各个里程碑（Milestone）。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734774667651.png" alt="1734774667651" />
+      
+    </figure>
+</li>
+<li>ISO 9000：质量保证体系, 用于实现质量管理的组织结构、责任、规程、过程和资源。
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734774748293.png" alt="1734774748293" />
+      
+    </figure>
+</li>
+<li>CMM
+<ul>
+<li>名称：Capability Maturity Model for Software</li>
+<li>目的：Improving the Software Development Process
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="image/2024%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0/1734774836104.png" alt="1734774836104" />
+      
+    </figure>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>THE END</strong></p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://api.qrserver.com/v1/create-qr-code/?data=http://localhost:13363/docs/softwareengineering/&amp;size=400x400&amp;color=000000&amp;bgcolor=FFFFFF&amp;margin=20&amp;qzone=5&amp;format=png"
+      title=""
+      aria-label=""
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM128 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:13363/docs/softwareengineering/&amp;text=2024%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e5%a4%8d%e4%b9%a0"
+      title="分享到 Twitter"
+      aria-label="分享到 Twitter"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://t.me/share/url?url=http://localhost:13363/docs/softwareengineering/&amp;resubmit=true&amp;title=2024%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e5%a4%8d%e4%b9%a0"
+      title=""
+      aria-label=""
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="mailto:?body=http://localhost:13363/docs/softwareengineering/&amp;subject=2024%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e5%a4%8d%e4%b9%a0"
+      title="通过电子邮件发送"
+      aria-label="通过电子邮件发送"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+  </section>
+
+
+        
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">相关文章</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/posts/daily/2025-01-01/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/MyImgs/img2_hu6350961748853100525.jpg);"></div>
+        
+      
+      <span class="absolute top-0 right-0 m-2">
+        <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    草稿
+  </span>
+</span>
+      </span>
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/daily/2025-01-01/">2025 01 01</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-12-21T19:38:14&#43;08:00">2024-12-21</time><span class="px-2 text-primary-500">&middot;</span><span>123 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_posts\daily\2025-01-01\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    步履不停
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%97%A5%E5%B8%B8/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    日常
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/daily/2024-12-04/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/daily/2024-12-04/featured_hu15418705910727071212.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/daily/2024-12-04/">2024 12 04</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-12-21T19:37:34&#43;08:00">2024-12-21</time><span class="px-2 text-primary-500">&middot;</span><span>471 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_posts\daily\2024-12-04\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%97%A5%E5%B8%B8/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    日常
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%A4%AA%E9%98%B3%E7%85%A7%E5%B8%B8%E5%8D%87%E8%B5%B7/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    太阳照常升起
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    步履不停
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tabs/books/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/MyImgs/img2_hu6350961748853100525.jpg);"></div>
+        
+      
+      <span class="absolute top-0 right-0 m-2">
+        <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    草稿
+  </span>
+</span>
+      </span>
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tabs/books/">Books</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-11-22T19:47:39&#43;08:00">2024-11-22</time><span class="px-2 text-primary-500">&middot;</span><span>86 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_tabs\books\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tabs/movies/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/MyImgs/img2_hu6350961748853100525.jpg);"></div>
+        
+      
+      <span class="absolute top-0 right-0 m-2">
+        <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    草稿
+  </span>
+</span>
+      </span>
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tabs/movies/">Movies</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-11-22T19:34:14&#43;08:00">2024-11-22</time><span class="px-2 text-primary-500">&middot;</span><span>86 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_tabs\movies\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tabs/musics/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/MyImgs/img2_hu6350961748853100525.jpg);"></div>
+        
+      
+      <span class="absolute top-0 right-0 m-2">
+        <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    草稿
+  </span>
+</span>
+      </span>
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tabs/musics/">Musics</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-11-22T19:32:27&#43;08:00">2024-11-22</time><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_tabs\musics\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/daily/2024-11-07/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/daily/2024-11-07/featured_hu9662967469063039013.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/daily/2024-11-07/">2024 11 07</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-11-09T01:22:07&#43;08:00">2024-11-09</time><span class="px-2 text-primary-500">&middot;</span><span>237 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_posts\daily\2024-11-07\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%97%A5%E5%B8%B8/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    日常
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%A4%AA%E9%98%B3%E7%85%A7%E5%B8%B8%E5%8D%87%E8%B5%B7/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    太阳照常升起
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    步履不停
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+</section>
+
+  
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_docs\\SoftwareEngineering\\index.md"
+        var oid_likes = "likes_docs\\SoftwareEngineering\\index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/docs/tj-dorm-wifi-auto-login/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Tongji-DORM-WIFI自动登录</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-10-30T23:05:28&#43;08:00">2024-10-30</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="返回顶部" title="返回顶部">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="">
+            
+            标签
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/authors/hyoungyan/"
+            title="">
+            
+            作者
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Hyoung Yan
+    </p>
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+  <a rel="me" href="https://yzlevol.github.io"></a>
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:13363/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="搜索"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="关闭 (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
